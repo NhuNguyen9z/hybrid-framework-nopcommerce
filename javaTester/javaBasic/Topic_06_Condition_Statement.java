@@ -15,6 +15,10 @@ import org.testng.annotations.Test;
 public class Topic_06_Condition_Statement {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
+	
+	// Nhược điểm của If else
+	// Khó đọc code (readable)
+	// Ko check trùng lặp
 
 	public void TC_01_If() {
 		boolean status = 5 > 3;
