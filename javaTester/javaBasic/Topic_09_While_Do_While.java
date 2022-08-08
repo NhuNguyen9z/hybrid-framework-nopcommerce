@@ -4,16 +4,14 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
+// break; câu lệnh dùng để thoát khỏi vòng lặp: for, while, do-while, switch-case
+// Nếu như mình cần apply 1 điều kiện cho all các element trong vòng lặp thì ko dùng break
+// Nếu như mình chỉ lọc ra 1 điều kiện mà ko chạy những cái còn lại thì nên dùng break
+
 public class Topic_09_While_Do_While {
 
 	// Hàm Scanner nhập ký tự từ bàn phím
-	static Scanner scanner = new Scanner(System.in);
-
-	public static void main(String[] args) {
-
-		TC_03_While();
-
-	}
+	Scanner scanner = new Scanner(System.in);
 
 	public void TC_01() {
 
@@ -37,8 +35,7 @@ public class Topic_09_While_Do_While {
 		} while (i < 5);
 	}
 
-	@Test
-	public static void TC_02_For() {
+	public void TC_02_For() {
 		// nhập số nguyên từ bàn phím
 		int number = scanner.nextInt();
 		for (; number < 100; number++) {
@@ -48,7 +45,7 @@ public class Topic_09_While_Do_While {
 		}
 	}
 
-	public static void TC_03_While() {
+	public void TC_03_While() {
 		int number = scanner.nextInt();
 
 		while (number < 100) {
@@ -61,16 +58,46 @@ public class Topic_09_While_Do_While {
 		}
 	}
 
-	public static void TC_04_Do_White() {
+	public void TC_04_Do_White() {
 		int number = scanner.nextInt();
 
 		do {
 			if (number % 2 == 0) {
 				System.out.println(number);
-
 			}
 			number++;
 
 		} while (number < 100);
 	}
+
+	public void TC_05() {
+		int numberA = scanner.nextInt();
+		int numberB = scanner.nextInt();
+
+		// Các số từ a - b
+		while (numberA < numberB) {
+			if (numberA % 3 == 0 && numberA % 5 == 0) {
+				System.out.println(numberA);
+			}
+			numberA++;
+
+		}
+	}
+
+	@Test
+	public void TC_06() {
+		int number = scanner.nextInt();
+		int i = 0;
+		do {
+			if (number % 2 != 0) {
+
+				System.out.println(number);
+				i += number; // i = i + number
+			}
+			number--;
+		} while (number > 0);
+
+		System.out.println(i);
+	}
+
 }
