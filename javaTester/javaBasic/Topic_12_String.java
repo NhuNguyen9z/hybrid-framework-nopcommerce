@@ -92,7 +92,7 @@ public class Topic_12_String {
 		// Sleep cứng thêm 5s sau mỗi sự kiện chuyển page
 		// }
 
-		// Khoảng trắng/ xuống dòng/ tab
+		// Hàm trim: Cắt khoảng trắng/ xuống dòng/ tab
 		String helloWorld = "      \n      \t      Hello World!      ";
 		System.out.println(helloWorld.trim());
 		System.out.println(helloWorld);
