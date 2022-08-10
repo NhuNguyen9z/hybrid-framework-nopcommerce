@@ -28,7 +28,7 @@ public class User_01_Register {
 	}
 
 	@Test
-	public void User_01_Register_Empty_Data() {
+	public void User_01_Register_Empty_Data() { // Register
 		driver.findElement(By.cssSelector("a.ico-register")).click();
 		driver.findElement(By.cssSelector("button#register-button")).click();
 
