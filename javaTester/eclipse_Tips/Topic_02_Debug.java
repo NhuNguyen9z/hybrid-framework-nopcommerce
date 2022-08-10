@@ -10,7 +10,7 @@ public class Topic_02_Debug {
 	WebDriver driver;
 
 	// Mục đích của debug là để hiểu được luồng dữ liệu
-	// Nếu làm đủ nhiều ko cần dùng debug quá nhiều --> đoán lỗi được
+	// Nếu làm đủ nhiều ko cần dùng debug quá nhiều -----> đoán lỗi được
 	@Test
 	public void TC_01() {
 		System.setProperty("webdriver.chrome.driver", ".\\browserDrivers\\chromedriver.exe");
