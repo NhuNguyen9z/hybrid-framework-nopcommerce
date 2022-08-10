@@ -57,7 +57,7 @@ public class Topic_12_String {
 		for (String string : results) {
 			System.out.println(string);
 		}
-		System.out.println(results[1]);
+		System.out.println("--------" + results[1]);
 
 		// Replace
 		String productPrice = "$100.00";
