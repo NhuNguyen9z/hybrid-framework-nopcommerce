@@ -18,6 +18,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 
+	// Static method: áp dụng nguyên tắc đóng gói (Encapsulation) che dấu sự khởi tạo của đối tượng/ Class
+	public static BasePage getBasePageObject() {
+		return new BasePage();
+	}
+
 	public void openPageUrl(WebDriver driver, String url) {
 		driver.get(url);
 	}
@@ -103,15 +108,15 @@ public class BasePage {
 		driver.switchTo().window(parentID);
 	}
 
-	public By getByXpath(String xpathLocator) {
+	private By getByXpath(String xpathLocator) {
 		return By.xpath(xpathLocator);
 	}
 
-	public WebElement getWebElement(WebDriver driver, String xpathLocator) {
+	private WebElement getWebElement(WebDriver driver, String xpathLocator) {
 		return driver.findElement(getByXpath(xpathLocator));
 	}
 
-	public List<WebElement> getListWebElement(WebDriver driver, String xpathLocator) {
+	private List<WebElement> getListWebElement(WebDriver driver, String xpathLocator) {
 		return driver.findElements(getByXpath(xpathLocator));
 	}
 
@@ -171,8 +176,8 @@ public class BasePage {
 		return getWebElement(driver, xpathLocator).getAttribute(attributeName);
 	}
 
-	public void getElementText(WebDriver driver, String xpathLocator) {
-		getWebElement(driver, xpathLocator).getText();
+	public String getElementText(WebDriver driver, String xpathLocator) {
+		return getWebElement(driver, xpathLocator).getText();
 	}
 
 	public String getElementCssValue(WebDriver driver, String xpathLocator, String propertyName) {

@@ -4,22 +4,9 @@
 	<test name="Test On Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="javaBasic.Topic_07_Switch_Case" />
+			<class name="com.nopcommerce.user.Level_02_Apply_BasePage_III" />
 		</classes>
 	</test>
 	
-	<test name="Test On Chrome">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="javaBasic.Topic_06_Condition_Statement" />
-		</classes>
-	</test>
-	
-	<test name="Test On Edge">
-		<parameter name="browser" value="edge" />
-		<classes>
-			<class name="javaBasic.Topic_06_Condition_Statement" />
-		</classes>
-	</test>
-	
+		
 </suite> 
