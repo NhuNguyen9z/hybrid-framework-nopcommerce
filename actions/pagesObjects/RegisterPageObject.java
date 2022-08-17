@@ -1,7 +1,6 @@
 package pagesObjects;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import commons.BasePage;
 import pageUIs.RegisterPageUI;
