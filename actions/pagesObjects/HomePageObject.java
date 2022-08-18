@@ -23,7 +23,7 @@ public class HomePageObject extends BasePage {
 	// - tức là hàm contructor sẽ dc chạy đầu tiên sau đó đến biến global driver rồi đến các hàm bên dưới
 	// - vì chạy đầu tiên nên sẽ map driver trước vậy khi chạy đến những hàm bên dưới thì driver đã có dữ liệu rồi
 	public HomePageObject(WebDriver driver) {
-		// sẽ lấy driver bên class Level_03_Page_Object gán vào driver của HomePageObject thì lúc này this.driver có data
+		// sẽ lấy driver bên class "Level_03_Page_Object_01_Register" gán vào driver global của HomePageObject thì lúc này this.driver có data
 		this.driver = driver; // dùng this khi biến Global vào biến Local cùng tên
 		// this.driver lấy driver Global ra gán bằng driver Local
 	}
