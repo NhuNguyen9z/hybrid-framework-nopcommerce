@@ -9,7 +9,7 @@ public class CarPop {
 
 	public static void main(String[] args) {
 		carCompany = "Honda";
-		carName = "Camrry";
+		carName = "Camry";
 		fuelType = "petro";
 		carSpeed = 200f;
 		carPrice = 50000d;

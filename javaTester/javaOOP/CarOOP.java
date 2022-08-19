@@ -7,6 +7,7 @@ public class CarOOP {
 	private float carSpeed;
 	private double carPrice;
 
+	// Constructor
 	protected CarOOP(String carCompany, String carName, String fuelType, float carSpeed, double carPrice) {
 		this.carCompany = carCompany;
 		this.carName = carName;

@@ -53,7 +53,7 @@ public class Student {
 	}
 
 	protected void showInforStudent() {
-		System.out.println("Id of Student = " + getId());
+		System.out.println("ID of Student = " + getId());
 		System.out.println("Name of Student = " + getName());
 		System.out.println("Score of Student = " + getSumAvg());
 	}
