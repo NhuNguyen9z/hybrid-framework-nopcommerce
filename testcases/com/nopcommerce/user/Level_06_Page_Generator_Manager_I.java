@@ -13,16 +13,17 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import commons.BaseTest;
 import pagesObjects.HomePageObject;
 import pagesObjects.LoginPageObject;
 import pagesObjects.RegisterPageObject;
 
-public class Level_03_Page_Object_02_Login {
+public class Level_06_Page_Generator_Manager_I extends BaseTest {
 
 	// Declare
 	private WebDriver driver;
 	private String firstName, lastName, existingEmail, notFoundEmail, invalidEmail, validPassword, incorrectPassword;
-	private String projectPath = System.getProperty("user.dir"); // Lấy ra thư mục của dự án
+
 	private HomePageObject homePage;
 	private RegisterPageObject registerPage;
 	private LoginPageObject loginPage;
@@ -30,25 +31,8 @@ public class Level_03_Page_Object_02_Login {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
+		driver = getBrowserDriver(browserName);
 
-		if (browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe"); // nối chuỗi
-			// 1 class chỉ được khởi tạo driver duy nhất 1 lần
-			driver = new FirefoxDriver(); // sau khi chạy xong thì driver có 1 ID rồi
-		} else if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-		} else if (browserName.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", projectPath + "\\browserDrivers\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		} else {
-			throw new RuntimeException("Browser name invalid");
-		}
-
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); // Setting timeout
-
-		// Mở Url lên nó qua trang HomePage
-		driver.get("https://demo.nopcommerce.com/");
 		homePage = new HomePageObject(driver);
 
 		firstName = "Automation";
@@ -84,17 +68,6 @@ public class Level_03_Page_Object_02_Login {
 		// Click Logout thì bussiness nó sẽ quay về HomePage
 		homePage = new HomePageObject(driver);
 
-		// Beforeclass là pre-condition: để cho all các testcase có thể chạy dc
-		// After class là pause condition
-		// Bỏ đoạn code Register vào beforeClass mục đích: tái sử dụng lại 1 đoạn code ở bên Register - ko reference đến class Register
-		// Phần precondition fail thì all các testcase đều bị skip bao gồm cả afterClass
-		// Đang có tham số nếu bấm refresh sẽ gửi request lên server 1 lần nữa
-		// Page Object: nguyên tắc là từ 1 trang A qua trang B thì phải khởi tạo trang B lên
-
-		// Làm tập trung:
-		// - Testcase - viết Step 1 lượt hết
-		// - UI: định nghĩa các locator 1 lượt hết
-		// - Action: gọi hàm và ráp locator 1 lượt hết
 	}
 
 	@Test
@@ -194,11 +167,6 @@ public class Level_03_Page_Object_02_Login {
 	public void afterClass() {
 		driver.quit();
 
-	}
-
-	public int generateEmail() {
-		Random random = new Random();
-		return random.nextInt(9999);
 	}
 
 }

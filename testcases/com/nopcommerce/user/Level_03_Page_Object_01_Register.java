@@ -24,9 +24,11 @@ public class Level_03_Page_Object_01_Register {
 
 	@BeforeClass
 	public void beforeClass() {
+
 		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe"); // nối chuỗi
 		// 1 class chỉ được khởi tạo driver duy nhất 1 lần
 		driver = new FirefoxDriver(); // sau khi chạy xong thì driver có 1 ID rồi
+
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); // Setting timeout
 
 		// Mở Url lên nó qua trang HomePage

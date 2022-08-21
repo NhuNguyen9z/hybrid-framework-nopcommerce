@@ -14,8 +14,7 @@ public class HomePageObject extends BasePage {
 	// (Constructor) Hàm khởi tạo = cùng tên với class, ko có kiểu trả về
 	// Khi khởi tạo 1 đối tượng của class đó thì hàm khởi tạo sẽ dc gọi đầu tiên
 	// Nếu ko khai báo hàm khởi tạo thì mặc định sẽ tạo ra hàm khởi tạo ko có tham số như này
-	// public HomePageObject(){
-	// }
+	// public HomePageObject(){ }
 
 	// Contructor: hàm khởi tạo/ hàm dựng - luôn chạy đầu tiên khi gọi đến Class đó - cùng tên vs class và ko có kiểu trả về
 	// Khi new 1 đối tượng của class thì nó sẽ gọi contructor đầu tiên

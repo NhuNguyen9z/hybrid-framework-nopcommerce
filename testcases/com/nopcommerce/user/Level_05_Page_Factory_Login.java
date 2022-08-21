@@ -13,11 +13,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import pagesObjects.HomePageObject;
+import pagesFactory.HomePageObject;
 import pagesObjects.LoginPageObject;
 import pagesObjects.RegisterPageObject;
 
-public class Level_03_Page_Object_02_Login {
+public class Level_05_Page_Factory_Login {
 
 	// Declare
 	private WebDriver driver;
@@ -27,23 +27,12 @@ public class Level_03_Page_Object_02_Login {
 	private RegisterPageObject registerPage;
 	private LoginPageObject loginPage;
 
-	@Parameters("browser")
 	@BeforeClass
-	public void beforeClass(String browserName) {
+	public void beforeClass() {
 
-		if (browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe"); // nối chuỗi
-			// 1 class chỉ được khởi tạo driver duy nhất 1 lần
-			driver = new FirefoxDriver(); // sau khi chạy xong thì driver có 1 ID rồi
-		} else if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-		} else if (browserName.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", projectPath + "\\browserDrivers\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		} else {
-			throw new RuntimeException("Browser name invalid");
-		}
+		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe"); // nối chuỗi
+		// 1 class chỉ được khởi tạo driver duy nhất 1 lần
+		driver = new FirefoxDriver(); // sau khi chạy xong thì driver có 1 ID rồi
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); // Setting timeout
 
@@ -88,7 +77,7 @@ public class Level_03_Page_Object_02_Login {
 		// After class là pause condition
 		// Bỏ đoạn code Register vào beforeClass mục đích: tái sử dụng lại 1 đoạn code ở bên Register - ko reference đến class Register
 		// Phần precondition fail thì all các testcase đều bị skip bao gồm cả afterClass
-		// Đang có tham số nếu bấm refresh sẽ gửi request lên server 1 lần nữa
+		// Đang có tham số nếu bấm refesh sẽ gửi request lên server 1 lần nữa
 		// Page Object: nguyên tắc là từ 1 trang A qua trang B thì phải khởi tạo trang B lên
 
 		// Làm tập trung:
