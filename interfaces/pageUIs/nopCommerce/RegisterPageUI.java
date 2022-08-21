@@ -1,4 +1,4 @@
-package pageUIs;
+package pageUIs.nopCommerce;
 
 public class RegisterPageUI {
 	// dùng final khi muốn biến đó ko bị gán lại (tức là ko bị thay đổi)

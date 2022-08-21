@@ -13,9 +13,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import pagesObjects.HomePageObject;
-import pagesObjects.LoginPageObject;
-import pagesObjects.RegisterPageObject;
+import pagesObjects.nopCommerce.HomePageObject;
+import pagesObjects.nopCommerce.LoginPageObject;
+import pagesObjects.nopCommerce.RegisterPageObject;
 
 public class Level_03_Page_Object_02_Login {
 

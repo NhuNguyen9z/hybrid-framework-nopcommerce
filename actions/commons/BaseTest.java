@@ -72,7 +72,7 @@ public class BaseTest {
 
 	}
 
-	public int generateEmail() {
+	protected int generateEmail() {
 		Random random = new Random();
 		return random.nextInt(9999);
 	}

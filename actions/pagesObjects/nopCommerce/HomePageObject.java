@@ -1,9 +1,9 @@
-package pagesObjects;
+package pagesObjects.nopCommerce;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.HomePageUI;
+import pageUIs.nopCommerce.HomePageUI;
 
 public class HomePageObject extends BasePage {
 
@@ -27,15 +27,20 @@ public class HomePageObject extends BasePage {
 		// this.driver lấy driver Global ra gán bằng driver Local
 	}
 
-	public void clickToRegisterLink() {
+	public RegisterPageObject clickToRegisterLink() {
 		waitForElementClickable(driver, HomePageUI.REGISTER_LINK);
 		clickToElement(driver, HomePageUI.REGISTER_LINK);
+		// new RegisterPageObject(driver) nếu new kiểu này thì hàm sẽ ko trả về gì hết do chỉ new lên thôi chứ ko lấy ra gì hết
+		// muốn lấy ra thì bắt buộc phải return
+		// đây nó đang new ra 1 class thì mình sẽ cho nó return - thì cái data type của hàm này sẽ là chính cái class này luôn coi nó như 1 kiểu dữ liệu
+		return PageGeneratorManager.getRegisterPage(driver);
 
 	}
 
-	public void clickToLoginLink() {
+	public LoginPageObject clickToLoginLink() {
 		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
 		clickToElement(driver, HomePageUI.LOGIN_LINK);
+		return PageGeneratorManager.getLoginPage(driver);
 
 	}
 
@@ -48,6 +53,12 @@ public class HomePageObject extends BasePage {
 	public boolean isMyAccountLinkDisplayed() {
 		waitForElementVisible(driver, HomePageUI.MY_ACCOUNT_LINK);
 		return isElementDisplay(driver, HomePageUI.MY_ACCOUNT_LINK);
+	}
+
+	public MyAccountPageObject clickToMyAccountLink() {
+		waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
+		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);
+		return PageGeneratorManager.getMyAccountPage(driver);
 	}
 
 }

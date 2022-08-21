@@ -10,8 +10,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import pagesObjects.HomePageObject;
-import pagesObjects.RegisterPageObject;
+import pagesObjects.nopCommerce.HomePageObject;
+import pagesObjects.nopCommerce.RegisterPageObject;
 
 public class Level_03_Page_Object_01_Register {
 

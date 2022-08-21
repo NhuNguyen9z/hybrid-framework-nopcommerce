@@ -1,12 +1,6 @@
 package com.nopcommerce.user;
 
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,9 +8,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pagesObjects.HomePageObject;
-import pagesObjects.LoginPageObject;
-import pagesObjects.RegisterPageObject;
+import pagesObjects.nopCommerce.HomePageObject;
+import pagesObjects.nopCommerce.LoginPageObject;
+import pagesObjects.nopCommerce.RegisterPageObject;
 
 public class Level_06_Page_Generator_Manager_I extends BaseTest {
 
@@ -67,6 +61,15 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 
 		// Click Logout thì bussiness nó sẽ quay về HomePage
 		homePage = new HomePageObject(driver);
+
+		// Cách 1:
+		// - Cho việc khởi tạo Page Object trực tiếp ở trên testcase
+		// - Kết nối giữa 2 Page Object với nhau
+		// - KO bị lỗi NullPointer (1 class mang ra sử dụng nhưng chưa được khởi tạo)
+		// Nhược điểm:
+		// 1, Hiển thị việc khởi tạo page/ class ở trên
+		// testcase luôn (ko tuân theo tính chất đóng gói/ che dấu sự khởi tạo 1 đối tượng) - Encapsulation của OOP
+		// 2, Bị lặp lại đoạn code khởi tạo page ở các step
 
 	}
 

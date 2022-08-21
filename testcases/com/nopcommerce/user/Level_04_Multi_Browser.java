@@ -10,8 +10,8 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pagesObjects.HomePageObject;
-import pagesObjects.RegisterPageObject;
+import pagesObjects.nopCommerce.HomePageObject;
+import pagesObjects.nopCommerce.RegisterPageObject;
 
 // Các class trong phần testcase sẽ kế thừa BaseTest
 // Các class trong package pagesObjects sẽ kế thừa BasePage
