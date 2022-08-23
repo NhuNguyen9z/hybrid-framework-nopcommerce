@@ -27,7 +27,7 @@ public class HomePageObject extends BasePage {
 		// this.driver lấy driver Global ra gán bằng driver Local
 	}
 
-	public RegisterPageObject clickToRegisterLink() {
+	public RegisterPageObject openRegisterPage() {
 		waitForElementClickable(driver, HomePageUI.REGISTER_LINK);
 		clickToElement(driver, HomePageUI.REGISTER_LINK);
 		// new RegisterPageObject(driver) nếu new kiểu này thì hàm sẽ ko trả về gì hết do chỉ new lên thôi chứ ko lấy ra gì hết
@@ -37,7 +37,7 @@ public class HomePageObject extends BasePage {
 
 	}
 
-	public LoginPageObject clickToLoginLink() {
+	public LoginPageObject openLoginPage() {
 		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
 		clickToElement(driver, HomePageUI.LOGIN_LINK);
 		return PageGeneratorManager.getLoginPage(driver);
@@ -55,10 +55,10 @@ public class HomePageObject extends BasePage {
 		return isElementDisplay(driver, HomePageUI.MY_ACCOUNT_LINK);
 	}
 
-	public MyAccountPageObject clickToMyAccountLink() {
+	public CustomerInforPageObject openCustomerInforPage() {
 		waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);
-		return PageGeneratorManager.getMyAccountPage(driver);
+		return PageGeneratorManager.getCustomerInforPage(driver);
 	}
 
 }

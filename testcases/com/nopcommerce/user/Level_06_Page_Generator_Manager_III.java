@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import pagesObjects.nopCommerce.HomePageObject;
 import pagesObjects.nopCommerce.LoginPageObject;
-import pagesObjects.nopCommerce.MyAccountPageObject;
+import pagesObjects.nopCommerce.CustomerInforPageObject;
 import pagesObjects.nopCommerce.PageGeneratorManager;
 import pagesObjects.nopCommerce.RegisterPageObject;
 
@@ -25,8 +25,8 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
 		firstName = "Automation";
 		lastName = "Testing";
-		existingEmail = "akp" + generateEmail() + "@hotmail.com";
-		notFoundEmail = "akp" + generateEmail() + "@yahoo.com";
+		existingEmail = "akp" + generateFakeEmail() + "@hotmail.com";
+		notFoundEmail = "akp" + generateFakeEmail() + "@yahoo.com";
 		invalidEmail = "123@123@";
 		validPassword = "123456";
 		incorrectPassword = "123123";
@@ -34,7 +34,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		System.out.println("Pre-condition - Step 01: Click register link");
 
 		// Cách 3: tối ưu việc khởi tạo page object
-		registerPage = homePage.clickToRegisterLink();
+		registerPage = homePage.openRegisterPage();
 
 		System.out.println("Pre-condition - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -58,7 +58,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
 	@Test
 	public void Login_01_Empty_Data() {
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 		loginPage.clickToLoginButton();
 		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
 
@@ -66,7 +66,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
 	@Test
 	public void Login_02_Invalid_Email() {
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		loginPage.inputToEmailTextbox(invalidEmail);
 
@@ -78,7 +78,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
 	@Test
 	public void Login_03_Email_Not_Found() {
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		loginPage.inputToEmailTextbox(notFoundEmail);
 
@@ -90,7 +90,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 
 	@Test
 	public void Login_04_Existing_Email_Emty_Password() {
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox("");
@@ -104,7 +104,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 	@Test
 	public void Login_05_Existing_Email_Incorrect_Password() {
 
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(incorrectPassword);
@@ -116,14 +116,14 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 	@Test
 	public void Login_06_Valid_Email_Password() {
 
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(validPassword);
 		homePage = loginPage.clickToLoginButton();
 
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-		myAccountPage = homePage.clickToMyAccountLink();
+		myAccountPage = homePage.openCustomerInforPage();
 		myAccountPage.clickToNewsletterCheckbox();
 
 	}
@@ -140,6 +140,6 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 	private HomePageObject homePage;
 	private RegisterPageObject registerPage;
 	private LoginPageObject loginPage;
-	private MyAccountPageObject myAccountPage;
+	private CustomerInforPageObject myAccountPage;
 
 }

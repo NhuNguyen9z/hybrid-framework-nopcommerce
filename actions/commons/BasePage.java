@@ -15,6 +15,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageUIs.nopCommerce.AddressPageUI;
+import pageUIs.nopCommerce.BasePageUI;
+import pageUIs.nopCommerce.RewardPointPageUI;
+import pagesObjects.nopCommerce.AddressPageObject;
+import pagesObjects.nopCommerce.CustomerInforPageObject;
+import pagesObjects.nopCommerce.MyProductReviewPageObject;
+import pagesObjects.nopCommerce.PageGeneratorManager;
+import pagesObjects.nopCommerce.RewardPointPageObject;
+
 public class BasePage {
 
 	// Static method: áp dụng nguyên tắc đóng gói (Encapsulation) che dấu sự khởi tạo của đối tượng/ Class
@@ -340,6 +349,30 @@ public class BasePage {
 	public void waitForElementClickable(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(xpathLocator)));
+	}
+
+	public MyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
+		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
+		return PageGeneratorManager.getMyProductReviewPage(driver);
+	}
+
+	public RewardPointPageObject openRewardPointPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.REWARD_POINT_LINK);
+		clickToElement(driver, BasePageUI.REWARD_POINT_LINK);
+		return PageGeneratorManager.getRewardPointPage(driver);
+	}
+
+	public AddressPageObject openAddressPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.ADDRESS_LINK);
+		clickToElement(driver, BasePageUI.ADDRESS_LINK);
+		return PageGeneratorManager.getAddressPage(driver);
+	}
+
+	public CustomerInforPageObject openCustomerInforPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.CUSTOMER_INFOR_LINK);
+		clickToElement(driver, BasePageUI.CUSTOMER_INFOR_LINK);
+		return PageGeneratorManager.getCustomerInforPage(driver);
 	}
 
 	private long longTimeout = 30;

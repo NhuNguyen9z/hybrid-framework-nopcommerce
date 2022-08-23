@@ -60,7 +60,7 @@ public class Level_04_Multi_Browser extends BaseTest {
 	@Test
 	public void Register_01_Empty_Data() {
 		System.out.println("Register_01 - Step 01: Click register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
 		registerPage = new RegisterPageObject(driver);
@@ -80,7 +80,7 @@ public class Level_04_Multi_Browser extends BaseTest {
 	@Test
 	public void Register_02_Invalid_Email() {
 		System.out.println("Register_02 - Step 01: Click register link");
-		homePage.clickToRegisterLink();
+		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
 		registerPage = new RegisterPageObject(driver);
@@ -106,7 +106,7 @@ public class Level_04_Multi_Browser extends BaseTest {
 
 	}
 
-	public int generateEmail() {
+	public int generateFakeEmail() {
 		Random random = new Random();
 		return random.nextInt(9999);
 	}
