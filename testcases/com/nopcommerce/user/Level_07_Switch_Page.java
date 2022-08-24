@@ -8,14 +8,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pagesObjects.nopCommerce.HomePageObject;
-import pagesObjects.nopCommerce.LoginPageObject;
-import pagesObjects.nopCommerce.MyProductReviewPageObject;
-import pagesObjects.nopCommerce.AddressPageObject;
-import pagesObjects.nopCommerce.CustomerInforPageObject;
-import pagesObjects.nopCommerce.PageGeneratorManager;
-import pagesObjects.nopCommerce.RegisterPageObject;
-import pagesObjects.nopCommerce.RewardPointPageObject;
+import commons.PageGeneratorManager;
+import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 
 public class Level_07_Switch_Page extends BaseTest {
 
@@ -24,7 +24,7 @@ public class Level_07_Switch_Page extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		// driver khởi tạo xong map vào getHomePage(driver)
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";
 		lastName = "Testing";
@@ -95,7 +95,11 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		// Reward Point -> My Product Review
 		myProductReviewPage = rewardPointPage.openMyProductReviewPage(driver);
+
+		// Reward Point -> Customer Infor
 		customerInfoPage = rewardPointPage.openCustomerInforPage(driver);
+
+		// Customer Infor -> Reward Point
 		rewardPointPage = customerInfoPage.openRewardPointPage(driver);
 
 	}
@@ -109,12 +113,12 @@ public class Level_07_Switch_Page extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddress, validPassword;
 
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
-	private CustomerInforPageObject customerInfoPage;
-	private AddressPageObject addressPage;
-	private MyProductReviewPageObject myProductReviewPage;
-	private RewardPointPageObject rewardPointPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
+	private UserCustomerInforPageObject customerInfoPage;
+	private UserAddressPageObject addressPage;
+	private UserMyProductReviewPageObject myProductReviewPage;
+	private UserRewardPointPageObject rewardPointPage;
 
 }

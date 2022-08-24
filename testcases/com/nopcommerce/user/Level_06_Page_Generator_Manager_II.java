@@ -8,9 +8,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pagesObjects.nopCommerce.HomePageObject;
-import pagesObjects.nopCommerce.LoginPageObject;
-import pagesObjects.nopCommerce.RegisterPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
 public class Level_06_Page_Generator_Manager_II extends BaseTest {
 
@@ -18,15 +18,15 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, existingEmail, notFoundEmail, invalidEmail, validPassword, incorrectPassword;
 
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
 
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePageObject(driver);
 		// Lưu ý Với cách số 2 này thì case: homePage = new HomePageObject(driver); -- là ko xử lý đúng
 		// nếu đưa "new HomePageObject(driver)" vào hàm getBrowserDriver(browserName) - như vậy nó ko hay vì nó chỉ giải
 		// quyết dc 1 vấn đề thôi - nghĩa là nó chỉ chạy dc cho 1 server 1 màn hình 1 cái app là demo.nopcommerce thôi
@@ -141,7 +141,6 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 		homePage = loginPage.clickToLoginButton();
 
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-		homePage.clickToLogoutLink();
 
 	}
 

@@ -65,7 +65,7 @@ public class BaseTest {
 			throw new RuntimeException("Browser name invalid");
 		}
 
-		driverBaseTest.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); // Setting timeout
+		driverBaseTest.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // Setting timeout
 		driverBaseTest.get("https://demo.nopcommerce.com/");
 
 		return driverBaseTest;

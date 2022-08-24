@@ -8,11 +8,11 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pagesObjects.liveGuru.HomePageObject;
-import pagesObjects.liveGuru.LoginPageObject;
-import pagesObjects.liveGuru.MyDashboardPageObject;
-import pagesObjects.liveGuru.PageGeneratorManager;
-import pagesObjects.liveGuru.RegisterPageObject;
+import pageObjects.liveGuru.HomePageObject;
+import pageObjects.liveGuru.LoginPageObject;
+import pageObjects.liveGuru.MyDashboardPageObject;
+import pageObjects.liveGuru.PageGeneratorManager;
+import pageObjects.liveGuru.RegisterPageObject;
 
 public class Level_06_Page_Generator_Manager_III extends BaseTest {
 

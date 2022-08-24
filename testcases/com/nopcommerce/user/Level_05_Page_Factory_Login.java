@@ -10,9 +10,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import pagesFactory.nopCommerce.HomePageObject;
-import pagesObjects.nopCommerce.LoginPageObject;
-import pagesObjects.nopCommerce.RegisterPageObject;
+import pageFactory.nopCommerce.HomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
 public class Level_05_Page_Factory_Login {
 
@@ -21,8 +21,8 @@ public class Level_05_Page_Factory_Login {
 	private String firstName, lastName, existingEmail, notFoundEmail, invalidEmail, validPassword, incorrectPassword;
 	private String projectPath = System.getProperty("user.dir"); // Lấy ra thư mục của dự án
 	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
 
 	@BeforeClass
 	public void beforeClass() {
@@ -49,7 +49,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToRegisterLink();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Pre-condition - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -88,7 +88,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - click LoginLink -> nhảy qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.clickToLoginButton();
 		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
@@ -100,7 +100,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - click LoginLink -> nhảy qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(invalidEmail);
 
@@ -115,7 +115,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - click LoginLink -> nhảy qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(notFoundEmail);
 
@@ -130,7 +130,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - click LoginLink -> nhảy qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox("");
@@ -147,7 +147,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - click LoginLink -> nhảy qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(incorrectPassword);
@@ -162,7 +162,7 @@ public class Level_05_Page_Factory_Login {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - click LoginLink -> nhảy qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(validPassword);

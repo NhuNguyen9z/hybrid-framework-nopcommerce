@@ -10,8 +10,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import pagesObjects.nopCommerce.HomePageObject;
-import pagesObjects.nopCommerce.RegisterPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
 public class Level_03_Page_Object_01_Register {
 
@@ -19,8 +19,8 @@ public class Level_03_Page_Object_01_Register {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddess, password;
 	private String projectPath = System.getProperty("user.dir"); // Lấy ra thư mục của dự án
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
 
 	@BeforeClass
 	public void beforeClass() {
@@ -33,7 +33,7 @@ public class Level_03_Page_Object_01_Register {
 
 		// Mở Url lên nó qua trang HomePage
 		driver.get("https://demo.nopcommerce.com/");
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePageObject(driver);
 
 		firstName = "Automation";
 		lastName = "Testing";
@@ -65,7 +65,7 @@ public class Level_03_Page_Object_01_Register {
 		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_01 - Step 02: Click register button");
 		registerPage.clickToRegisterButton();
@@ -85,7 +85,7 @@ public class Level_03_Page_Object_01_Register {
 		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_02 - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -108,7 +108,7 @@ public class Level_03_Page_Object_01_Register {
 		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_03 - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -133,7 +133,7 @@ public class Level_03_Page_Object_01_Register {
 		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_04 - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -155,7 +155,7 @@ public class Level_03_Page_Object_01_Register {
 		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_05 - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -178,7 +178,7 @@ public class Level_03_Page_Object_01_Register {
 		homePage.openRegisterPage();
 
 		// Click Register link -> nhảy qua trang Register
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Register_06 - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
