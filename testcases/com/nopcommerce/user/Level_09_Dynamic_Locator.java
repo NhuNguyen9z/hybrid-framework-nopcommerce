@@ -17,7 +17,7 @@ import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 
-public class Level_07_Switch_Page extends BaseTest {
+public class Level_09_Dynamic_Locator extends BaseTest {
 
 	@Parameters("browser")
 	@BeforeClass
@@ -36,7 +36,7 @@ public class Level_07_Switch_Page extends BaseTest {
 
 	// Về nguyên tắc: khi 1 trang A qua trang B thì phải viết hàm mở trang B ra
 	@Test
-	public void User_01_Register() {
+	public void User_01_Register_Login() {
 
 		registerPage = homePage.openRegisterPage();
 
@@ -52,10 +52,6 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		homePage = registerPage.clickToLogoutLink();
 
-	}
-
-	@Test
-	public void User_02_Login() {
 		loginPage = homePage.openLoginPage();
 
 		loginPage.inputToEmailTextbox(emailAddress);
@@ -63,18 +59,13 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		homePage = loginPage.clickToLoginButton();
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-
-	}
-
-	@Test
-	public void User_03_My_Account() {
 		customerInfoPage = homePage.openCustomerInforPage();
 		Assert.assertTrue(customerInfoPage.isCustomerInfoPageDisplayed());
 
 	}
 
 	@Test
-	public void User_04_Switch_Page() {
+	public void User_02_Switch_Page() {
 		// Knowledge của Page Object
 		// 1 page A khi chuyển qua page B thì phải viết 1 hàm (action: open/click ...: link/ button/ image...) để mở page B đó lên
 
@@ -101,6 +92,71 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		// Customer Infor -> Reward Point
 		rewardPointPage = customerInfoPage.openRewardPointPage(driver);
+
+	}
+
+	@Test
+	public void User_03_Dynamic_Pages_1() {
+
+		// Customer Infor -> Address
+		addressPage = (UserAddressPageObject) customerInfoPage.openPagesAtMyAccountByName(driver, "Addresses");
+		// Address -> My Product Review
+		myProductReviewPage = (UserMyProductReviewPageObject) addressPage.openPagesAtMyAccountByName(driver, "My product reviews");
+
+		// My Product Review -> Reward Point
+		rewardPointPage = (UserRewardPointPageObject) myProductReviewPage.openPagesAtMyAccountByName(driver, "Reward points");
+
+		// Reward Point -> Address
+		addressPage = (UserAddressPageObject) rewardPointPage.openPagesAtMyAccountByName(driver, "Addresses");
+
+		// Address -> Reward Point
+		rewardPointPage = (UserRewardPointPageObject) addressPage.openPagesAtMyAccountByName(driver, "Reward points");
+
+		// Reward Point -> My Product Review
+		myProductReviewPage = (UserMyProductReviewPageObject) rewardPointPage.openPagesAtMyAccountByName(driver, "My product reviews");
+
+		// My Product Review -> Customer Infor
+		customerInfoPage = (UserCustomerInforPageObject) myProductReviewPage.openPagesAtMyAccountByName(driver, "Customer info");
+
+		// Customer Infor -> Reward Point
+		rewardPointPage = (UserRewardPointPageObject) customerInfoPage.openPagesAtMyAccountByName(driver, "Reward points");
+
+	}
+
+	@Test
+	public void User_03_Dynamic_Pages_2() {
+		// Page A qua Page B: mở page B lên trước rồi khởi tạo page B lên sau
+
+		// Customer Infor -> Address
+		customerInfoPage.openPagesByName(driver, "Addresses");
+		addressPage = PageGeneratorManager.getAddressPage(driver); // khởi tạo ở tầng testcase
+		// Address -> My Product Review
+		addressPage.openPagesByName(driver, "My product reviews");
+		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
+
+		// My Product Review -> Reward Point
+		myProductReviewPage.openPagesByName(driver, "Reward points");
+		rewardPointPage = PageGeneratorManager.getRewardPointPage(driver);
+
+		// Reward Point -> Address
+		rewardPointPage.openPagesByName(driver, "Addresses");
+		addressPage = PageGeneratorManager.getAddressPage(driver);
+
+		// Address -> Reward Point
+		addressPage.openPagesByName(driver, "Reward points");
+		rewardPointPage = PageGeneratorManager.getRewardPointPage(driver);
+
+		// Reward Point -> My Product Review
+		rewardPointPage.openPagesByName(driver, "My product reviews");
+		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
+
+		// My Product Review -> Customer Infor
+		myProductReviewPage.openPagesByName(driver, "Customer info");
+		customerInfoPage = PageGeneratorManager.getCustomerInforPage(driver);
+
+		// Customer Infor -> Reward Point
+		customerInfoPage.openPagesByName(driver, "Reward points");
+		rewardPointPage = PageGeneratorManager.getRewardPointPage(driver);
 
 	}
 

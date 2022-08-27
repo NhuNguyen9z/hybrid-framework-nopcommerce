@@ -35,7 +35,7 @@ public class PageGeneratorManager {
 	}
 
 	public static UserAddressPageObject getAddressPage(WebDriver driver) {
-		return new UserAddressPageObject(driver);
+		return new UserAddressPageObject(driver); // khi khởi tạo xong thì sẽ trả về 1 Object của class này
 	}
 
 	public static UserRewardPointPageObject getRewardPointPage(WebDriver driver) {

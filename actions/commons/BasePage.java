@@ -117,16 +117,14 @@ public class BasePage {
 	// locatorType: ID= /CSS=/ XPATH=/ NAME=/ CLASS=
 	// locatorType: Id= /Css=/ Xpath=/ Name=/ Class=
 	private By getByLocator(String locatorType) {
-
 		By by = null;
 		System.out.println("Locator Type = " + locatorType);
 		if (locatorType.startsWith("id=") || locatorType.startsWith("ID=") || locatorType.startsWith("Id=")) {
 			by = By.id(locatorType.substring(3));
-
 		} else if (locatorType.startsWith("css=") || locatorType.startsWith("CSS=") || locatorType.startsWith("Css=")) {
 			by = By.cssSelector(locatorType.substring(4));
 		} else if (locatorType.startsWith("xpath=") || locatorType.startsWith("XPATH=") || locatorType.startsWith("Xpath=") || locatorType.startsWith("XPath=")) {
-			by = By.xpath(locatorType.substring(6));
+			by = By.xpath(locatorType.substring(6)); // substring: lấy ra 6 ký tự đầu tiên xóa đi
 		} else if (locatorType.startsWith("name=") || locatorType.startsWith("NAME=") || locatorType.startsWith("Name=")) {
 			by = By.name(locatorType.substring(5));
 		} else if (locatorType.startsWith("class=") || locatorType.startsWith("CLASS=") || locatorType.startsWith("Class=")) {
@@ -136,6 +134,13 @@ public class BasePage {
 		}
 
 		return by;
+	}
+
+	private String getDynamicXpath(String locatorType, String... dynamicValues) {
+		if (locatorType.startsWith("xpath=") || locatorType.startsWith("XPATH=") || locatorType.startsWith("Xpath=") || locatorType.startsWith("XPath=")) {
+			locatorType = String.format(locatorType, (Object[]) dynamicValues);
+		}
+		return locatorType;
 	}
 
 	private WebElement getWebElement(WebDriver driver, String locatorType) {
@@ -150,8 +155,20 @@ public class BasePage {
 		getWebElement(driver, locatorType).click();
 	}
 
+	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		getWebElement(driver, locatorType).click();
+	}
+
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue) {
 		// hàm dùng từ 2 lần trở lên thì nên define thành biến
+		WebElement element = getWebElement(driver, locatorType);
+		element.clear();
+		element.sendKeys(textValue);
+	}
+
+	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		WebElement element = getWebElement(driver, locatorType);
 		element.clear();
 		element.sendKeys(textValue);
@@ -163,7 +180,20 @@ public class BasePage {
 
 	}
 
+	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		Select select = new Select(getWebElement(driver, locatorType));
+		select.selectByValue(textItem);
+
+	}
+
 	public String getSelectItemDefaultDropdown(WebDriver driver, String locatorType) {
+		Select select = new Select(getWebElement(driver, locatorType));
+		return select.getFirstSelectedOption().getText();
+	}
+
+	public String getSelectItemDefaultDropdown(WebDriver driver, String locatorType, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		Select select = new Select(getWebElement(driver, locatorType));
 		return select.getFirstSelectedOption().getText();
 	}
@@ -206,6 +236,11 @@ public class BasePage {
 		return getWebElement(driver, locatorType).getText();
 	}
 
+	public String getElementText(WebDriver driver, String locatorType, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		return getWebElement(driver, locatorType).getText();
+	}
+
 	public String getElementCssValue(WebDriver driver, String locatorType, String propertyName) {
 		return getWebElement(driver, locatorType).getCssValue(propertyName);
 	}
@@ -233,6 +268,11 @@ public class BasePage {
 	}
 
 	public boolean isElementDisplay(WebDriver driver, String locatorType) {
+		return getWebElement(driver, locatorType).isDisplayed();
+	}
+
+	public boolean isElementDisplay(WebDriver driver, String locatorType, String... dynamicValues) {
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		return getWebElement(driver, locatorType).isDisplayed();
 	}
 
@@ -333,7 +373,12 @@ public class BasePage {
 	public void waitForElementVisible(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
+	}
 
+	public void waitForElementVisible(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
 	}
 
 	public void waitForAllElementVisible(WebDriver driver, String locatorType) {
@@ -341,8 +386,20 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByLocator(locatorType)));
 	}
 
+	public void waitForAllElementVisible(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByLocator(locatorType)));
+	}
+
 	public void waitForElementInvisible(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+	}
+
+	public void waitForElementInvisible(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
 	}
 
@@ -361,11 +418,22 @@ public class BasePage {
 	public void waitForAllElementInvisible(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, locatorType)));
+	}
 
+	public void waitForAllElementInvisible(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, locatorType)));
 	}
 
 	public void waitForElementClickable(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(locatorType)));
+	}
+
+	public void waitForElementClickable(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(locatorType)));
 	}
 
@@ -391,6 +459,34 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageUI.CUSTOMER_INFOR_LINK);
 		clickToElement(driver, BasePageUI.CUSTOMER_INFOR_LINK);
 		return PageGeneratorManager.getCustomerInforPage(driver);
+	}
+
+	public BasePage openPagesAtMyAccountByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
+		// click xong kiểm tra pageName để khởi tạo - nếu pageName = Addresses thì gọi qua PageGeneratorManager gọi qua getAddressPage khởi tạo ra
+		// khởi tạo thì new UserAddressPageObject lên - new thì gọi qua constructor map driver
+		// - khi khởi tạo xong nó sẽ trả về 1 object của class UserAddressPageObject
+		switch (pageName) {
+		case "Addresses":
+			return PageGeneratorManager.getAddressPage(driver);
+		case "My product reviews":
+			return PageGeneratorManager.getMyProductReviewPage(driver);
+		case "Reward points":
+			return PageGeneratorManager.getRewardPointPage(driver);
+		case "Customer info":
+			return PageGeneratorManager.getCustomerInforPage(driver);
+		default:
+			throw new RuntimeException("Invalid page name at My account area.");
+
+		}
+
+	}
+
+	public void openPagesByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
+
 	}
 
 	private long longTimeout = 30;
