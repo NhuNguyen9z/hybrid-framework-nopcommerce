@@ -23,7 +23,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		// driver khởi tạo xong map vào getHomePage(driver)
+
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";

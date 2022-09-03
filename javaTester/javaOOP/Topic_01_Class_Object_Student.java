@@ -1,27 +1,34 @@
 package javaOOP;
 
-public class Student {
+public class Topic_01_Class_Object_Student {
 	// Property
-	private int id;
+	public int studentID;
 	private String name;
-	private float theory;
-	private float practice;
+	private Float knowledgePoint;
+	private Float practicePoint;
 
 	// Constructor
-	protected Student(int id, String name, float theory, float practice) {
-		this.id = id;
+	protected Topic_01_Class_Object_Student(int studentID, String name, Float knowledgePoint, Float practicePoint) {
+		this.studentID = studentID;
 		this.name = name;
-		this.theory = theory;
-		this.practice = practice;
+		this.knowledgePoint = knowledgePoint;
+		this.practicePoint = practicePoint;
+	}
+
+	public Topic_01_Class_Object_Student() {
+		// TODO Auto-generated constructor stub
 	}
 
 	// Method
 	protected int getId() {
-		return id;
+		return studentID;
 	}
 
-	protected void setId(int id) {
-		this.id = id;
+	// Getter là hàm để lấy dữ liệu ra
+	// Setter là hàm để gán dữ liệu vào
+	// Nghĩa là muốn truy cập dữ liệu phải thông qua các hàm chứ ko dc phép lấy/ gán dữ liệu thông qua các thuộc tính -> để tăng độ bảo mật
+	protected void setId(int studentID) {
+		this.studentID = studentID;
 	}
 
 	protected String getName() {
@@ -32,41 +39,42 @@ public class Student {
 		this.name = name;
 	}
 
-	protected float getTheory() {
-		return theory;
+	protected float getKnowledgePoint() {
+		return knowledgePoint;
 	}
 
-	protected void setTheory(float theory) {
-		this.theory = theory;
+	protected void setKnowledgePoint(Float theory) {
+		this.knowledgePoint = theory;
 	}
 
-	protected float getPractice() {
-		return practice;
+	protected float getPracticePoint() {
+		return practicePoint;
 	}
 
-	protected void setPractice(float practice) {
-		this.practice = practice;
+	protected void setPracticePoint(Float practice) {
+		this.practicePoint = practice;
 	}
 
-	protected float getSumAvg() {
-		return (theory + practice * 2) / 3;
+	protected Float getAveragePoint() {
+		return (knowledgePoint + practicePoint * 2) / 3;
 	}
 
 	protected void showInforStudent() {
+		System.out.println("-------------------------");
 		System.out.println("ID of Student = " + getId());
 		System.out.println("Name of Student = " + getName());
-		System.out.println("Score of Student = " + getSumAvg());
+		System.out.println("Score of Student = " + getAveragePoint());
 	}
 
 	public static void main(String[] args) {
-		Student sv1 = new Student(11, "Jonhny", 6.5f, 8f);
-		sv1.showInforStudent();
+		Topic_01_Class_Object_Student firstStudent = new Topic_01_Class_Object_Student(11, "Jonhny", 6.5f, 8f);
+		firstStudent.showInforStudent();
 
-		Student sv2 = new Student(12, "Henry", 8f, 8f);
-		sv2.showInforStudent();
+		Topic_01_Class_Object_Student secondStudent = new Topic_01_Class_Object_Student(12, "Henry", 8f, 8f);
+		secondStudent.showInforStudent();
 
-		Student sv3 = new Student(13, "Tony", 6f, 9f);
-		sv3.showInforStudent();
+		Topic_01_Class_Object_Student thirdStudent = new Topic_01_Class_Object_Student(13, "Tony", 6f, 9f);
+		thirdStudent.showInforStudent();
 
 	}
 }

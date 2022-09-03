@@ -67,8 +67,7 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 		// - Kết nối giữa 2 Page Object với nhau
 		// - KO bị lỗi NullPointer (1 class mang ra sử dụng nhưng chưa được khởi tạo)
 		// Nhược điểm:
-		// 1, Hiển thị việc khởi tạo page/ class ở trên
-		// testcase luôn (ko tuân theo tính chất đóng gói/ che dấu sự khởi tạo 1 đối tượng) - Encapsulation của OOP
+		// 1, Hiển thị việc khởi tạo page/ class ở trên testcase luôn (ko tuân theo tính chất đóng gói/ che dấu sự khởi tạo 1 đối tượng) - Encapsulation của OOP
 		// 2, Bị lặp lại đoạn code khởi tạo page ở các step
 
 	}

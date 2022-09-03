@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Nopcommerce" parallel="false">
-
+<parameter name = "enviroment" value ="DEV" />
 	<test name="Test On Firefox">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="FIREFOX" />
 		<classes>
 			<class name="com.nopcommerce.user.Level_09_Dynamic_Locator" />
 		</classes>

@@ -124,11 +124,11 @@ public class BasePage {
 		} else if (locatorType.startsWith("css=") || locatorType.startsWith("CSS=") || locatorType.startsWith("Css=")) {
 			by = By.cssSelector(locatorType.substring(4));
 		} else if (locatorType.startsWith("xpath=") || locatorType.startsWith("XPATH=") || locatorType.startsWith("Xpath=") || locatorType.startsWith("XPath=")) {
-			by = By.xpath(locatorType.substring(6)); // substring: lấy ra 6 ký tự đầu tiên xóa đi
+			by = By.xpath(locatorType.substring(6));
 		} else if (locatorType.startsWith("name=") || locatorType.startsWith("NAME=") || locatorType.startsWith("Name=")) {
 			by = By.name(locatorType.substring(5));
 		} else if (locatorType.startsWith("class=") || locatorType.startsWith("CLASS=") || locatorType.startsWith("Class=")) {
-			by = By.className(locatorType.substring(6));
+			by = By.className(locatorType.substring(6)); // substring: lấy ra 6 ký tự đầu tiên xóa đi
 		} else {
 			throw new RuntimeException("Locator Type is not support");
 		}
