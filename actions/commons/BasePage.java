@@ -20,6 +20,7 @@ import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.nopCommerce.user.BasePageUI;
 
 public class BasePage {
@@ -289,11 +290,11 @@ public class BasePage {
 		}
 	}
 
-	public boolean isElementDisplay(WebDriver driver, String locatorType) {
+	public boolean isElementDisplayed(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).isDisplayed();
 	}
 
-	public boolean isElementDisplay(WebDriver driver, String locatorType, String... dynamicValues) {
+	public boolean isElementDisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
 		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		return getWebElement(driver, locatorType).isDisplayed();
 	}
@@ -374,6 +375,14 @@ public class BasePage {
 			return true;
 		}
 		return false;
+	}
+
+	public boolean isImageLoaded(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		boolean status = (boolean) jsExecutor.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != 'undefined' && arguments[0].naturalWidth > 0", getWebElement(driver, locatorType));
+
+		return status;
 	}
 
 	public boolean areJQueryAndJSLoadedSuccess(WebDriver driver) {
@@ -469,6 +478,26 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(locatorType)));
 	}
 
+	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
+		// Đường dẫn của thư mục uploadFiles: Window/ Mac/ Linux
+		String filePath = GlobalConstant.UPLOAD_FILE;
+
+		// Đường dẫn của all các file
+		// 1 file: Java.png
+		String fullFileName = "";
+		for (String file : fileNames) {
+			// filePath + Java.png + "\n"
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		getWebElement(driver, BasePageJQueryUI.UPLOAD_FILE).sendKeys(fullFileName);
+		// CÁCH CHẠY
+		// Khi gọi hàm getWebElement này locatorType xpath= gì đó thì sẽ vào getByLocator này trước vào đúng xpath truyền vào By.xpath xóa 6 ký tự đầu đi
+		// lấy cái đuôi trả về đúng cái by thì thằng findElement nhận vào cái By - thì nó sẽ lấy dc cái element ra trả về 1 cái WebElement thì nó gọi
+		// thằng sendKeys ra truyền đường dẫn của file vào là nó upload file lên dc
+	}
+
+	// ----------------------------------------------------------------------------------------
 	public UserMyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);

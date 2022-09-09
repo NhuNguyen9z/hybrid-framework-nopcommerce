@@ -21,7 +21,7 @@ public class HomePageObject extends BasePage {
 
 	public boolean isDisplayMessageHomePage() {
 		waitForElementVisible(driver, HomePageUI.HOMEPAGE_MESSAGE);
-		return isElementDisplay(driver, HomePageUI.HOMEPAGE_MESSAGE);
+		return isElementDisplayed(driver, HomePageUI.HOMEPAGE_MESSAGE);
 	}
 
 }

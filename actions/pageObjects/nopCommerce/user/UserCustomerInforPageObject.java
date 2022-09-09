@@ -16,7 +16,7 @@ public class UserCustomerInforPageObject extends BasePage {
 
 	public boolean isCustomerInfoPageDisplayed() {
 		waitForElementVisible(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS);
-		return isElementDisplay(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS);
+		return isElementDisplayed(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS);
 	}
 
 	public void clickToNewsletterCheckbox() {

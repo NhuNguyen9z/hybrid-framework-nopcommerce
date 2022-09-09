@@ -47,7 +47,7 @@ public class UserHomePageObject extends BasePage {
 
 	public boolean isMyAccountLinkDisplayed() {
 		waitForElementVisible(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		return isElementDisplay(driver, UserHomePageUI.MY_ACCOUNT_LINK);
+		return isElementDisplayed(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 	}
 
 	public UserCustomerInforPageObject openCustomerInforPage() {

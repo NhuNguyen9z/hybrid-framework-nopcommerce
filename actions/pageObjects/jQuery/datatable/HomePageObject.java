@@ -37,7 +37,7 @@ public class HomePageObject extends BasePage {
 
 	public boolean isPageNumberActived(String pageNumber) {
 		waitForElementVisible(driver, HomePageUI.PAGINATION_PAGE_ACTIVE_BY_NUMBER, pageNumber);
-		return isElementDisplay(driver, HomePageUI.PAGINATION_PAGE_ACTIVE_BY_NUMBER, pageNumber);
+		return isElementDisplayed(driver, HomePageUI.PAGINATION_PAGE_ACTIVE_BY_NUMBER, pageNumber);
 	}
 
 	public void enterToHeaderTextboxByLabel(String headerLabel, String valueToSendkey) {
@@ -48,7 +48,7 @@ public class HomePageObject extends BasePage {
 
 	public boolean isResultDisplay(String dynamicValues) {
 		waitForElementVisible(driver, HomePageUI.HEADER_BY_LABEL_DISPLAYED, dynamicValues);
-		return isElementDisplay(driver, HomePageUI.HEADER_BY_LABEL_DISPLAYED, dynamicValues);
+		return isElementDisplayed(driver, HomePageUI.HEADER_BY_LABEL_DISPLAYED, dynamicValues);
 	}
 
 	public List<String> getValueEachRowAllPage() {
