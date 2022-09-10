@@ -11,6 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.testng.Assert;
+import org.testng.Reporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -154,5 +156,56 @@ public class BaseTest {
 	protected int generateFakeEmail() {
 		Random random = new Random();
 		return random.nextInt(9999);
+	}
+
+	protected boolean verifyTrue(boolean condition) {
+		boolean pass = true;
+		try { // nếu dk đúng thì nhảy vào try
+			Assert.assertTrue(condition);
+			System.out.println("-------------------------PASSED--------------------------");
+
+			// neu dk sai thi catch se bat lai
+		} catch (Throwable e) {
+			System.out.println("-------------------------FAILED--------------------------");
+			pass = false;
+
+			// Add loi vao reportNG
+			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
+			Reporter.getCurrentTestResult().setThrowable(e);
+		}
+		return pass;
+	}
+
+	protected boolean verifyFalse(boolean condition) {
+		boolean pass = true;
+		try {
+			Assert.assertFalse(condition);
+			System.out.println("-------------------------PASSED--------------------------");
+
+		} catch (Throwable e) {
+
+			System.out.println("-------------------------FAILED--------------------------");
+			pass = false;
+
+			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e); // add ket qua
+			Reporter.getCurrentTestResult().setThrowable(e); // add thong bao loi vao reportNG
+		}
+		return pass;
+	}
+
+	protected boolean verifyEquals(Object actual, Object expected) {
+		boolean pass = true;
+		try {
+			Assert.assertEquals(actual, expected);
+			System.out.println("-------------------------PASSED--------------------------");
+
+		} catch (Throwable e) {
+			System.out.println("-------------------------FAILED--------------------------");
+			pass = false;
+
+			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
+			Reporter.getCurrentTestResult().setThrowable(e);
+		}
+		return pass;
 	}
 }
