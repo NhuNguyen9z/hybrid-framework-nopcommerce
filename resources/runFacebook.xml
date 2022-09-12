@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Facebook" parallel="false">
+<parameter name = "enviroment" value ="DEV" />
+<listeners>
+<listener class-name="commons.MethodListener"/>
+</listeners>
+	<test name="Test On Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://www.facebook.com/" />
+		<classes>
+			<class name="com.facebook.register.Level_13_Verify_Element_Undisplayed" />
+		</classes>
+	</test>
+	
+		
+</suite> 

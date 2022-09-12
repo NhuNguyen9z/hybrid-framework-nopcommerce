@@ -2,6 +2,7 @@ package commons;
 
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -299,6 +300,28 @@ public class BasePage {
 		return getWebElement(driver, locatorType).isDisplayed();
 	}
 
+	public boolean isElementUndisplayed(WebDriver driver, String locatorType) {
+		// set timeout implicitWait = 5 giây vì nếu set 30 giây khi gặp 1 issue là nó quá mất time để verify 1 element ko hiển thị (ko có trong DOM)
+		overrideImplicitWaitTimeout(driver, shortTimeout);
+		List<WebElement> elements = getListWebElement(driver, locatorType);
+		// phải set lại timeout implicitWait = 30 giây vì nếu để 5 giây có những page mới hiện icon loading chưa load xong nó sẽ ko đủ time find element
+		// nếu như gán timeout implicitWait = 5 nó sẽ apply cho all các step về sau đó: findElement/ findElements
+
+		overrideImplicitWaitTimeout(driver, longTimeout);
+		if (elements.size() == 0) { // element KO có trong DOM
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) { // element có trong DOM nhưng KO displayed
+			return true;
+		} else { // tức là element Displayed
+			return false;
+		}
+
+	}
+
+	public void overrideImplicitWaitTimeout(WebDriver driver, long timeout) {
+		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+	}
+
 	public boolean isElementEnable(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).isEnabled();
 	}
@@ -444,6 +467,16 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
 	}
 
+	/**
+	 * Wait for element undisplayed in DOM or not IN DOM and override implicit timeout
+	 */
+	public void waitForElementUndisplayed(WebDriver driver, String locatorType) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
+		overrideImplicitWaitTimeout(driver, shortTimeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+		overrideImplicitWaitTimeout(driver, longTimeout);
+	}
+
 	// Tại sao: Wait lại nên truyền tham số là By - ko nên truyển tham số là WebElement
 	// Vì: trộn lẫn giữa 2 loại Wait thời gian chờ sẽ lâu hơn
 	// nó phải find element trước rồi nó mới apply lại cho hàm Wait
@@ -551,4 +584,5 @@ public class BasePage {
 	}
 
 	private long longTimeout = GlobalConstant.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstant.SHORT_TIMEOUT;
 }
