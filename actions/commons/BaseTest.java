@@ -3,6 +3,8 @@ package commons;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,6 +20,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	private WebDriver driverBaseTest;
+	protected final Log log; // biến log set final là ko dc phép gán lại
+
+	protected BaseTest() {
+		log = LogFactory.getLog(getClass()); // getClass là truyền chính class BaseTest vào
+	}
 
 	protected WebDriver getBrowserDriver(String browserName) {
 		// browserList = Lấy ra giá trị của browserName để compare - thì browserList lúc mang giá trị là String
@@ -162,11 +169,11 @@ public class BaseTest {
 		boolean pass = true;
 		try { // nếu dk đúng thì nhảy vào try
 			Assert.assertTrue(condition);
-			System.out.println("-------------------------PASSED--------------------------");
+			log.info("-------------------------PASSED--------------------------");
 
 			// neu dk sai thi catch se bat lai
 		} catch (Throwable e) {
-			System.out.println("-------------------------FAILED--------------------------");
+			log.info("-------------------------FAILED--------------------------");
 			pass = false;
 
 			// Add loi vao reportNG
@@ -180,11 +187,11 @@ public class BaseTest {
 		boolean pass = true;
 		try {
 			Assert.assertFalse(condition);
-			System.out.println("-------------------------PASSED--------------------------");
+			log.info("-------------------------PASSED--------------------------");
 
 		} catch (Throwable e) {
 
-			System.out.println("-------------------------FAILED--------------------------");
+			log.info("-------------------------FAILED--------------------------");
 			pass = false;
 
 			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e); // add ket qua
@@ -197,10 +204,10 @@ public class BaseTest {
 		boolean pass = true;
 		try {
 			Assert.assertEquals(actual, expected);
-			System.out.println("-------------------------PASSED--------------------------");
+			log.info("-------------------------PASSED--------------------------");
 
 		} catch (Throwable e) {
-			System.out.println("-------------------------FAILED--------------------------");
+			log.info("-------------------------FAILED--------------------------");
 			pass = false;
 
 			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);

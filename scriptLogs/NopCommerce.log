@@ -1,0 +1,114 @@
+[INFO ] [2022-09-13 08:22:00,561] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-13 08:22:01,889] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-13 08:22:02,028] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-13 08:22:02,194] Register - Step 04: Enter to Email textbox with value is 'auto3193@hotmail.com'
+[INFO ] [2022-09-13 08:22:02,313] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:22:02,446] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:22:02,555] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-13 08:22:04,640] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-13 08:22:04,735] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:22:04,735] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-13 08:22:05,588] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-13 08:22:06,776] Login - Step 02: Enter to Email textbox with value is 'auto3193@hotmail.com'
+[INFO ] [2022-09-13 08:22:06,908] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:22:07,034] Login - Step 04: Click to Login button
+[INFO ] [2022-09-13 08:22:07,859] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-13 08:22:07,955] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:22:07,955] Login - Step 06: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-13 08:22:09,126] Login - Step 07: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-13 08:22:09,231] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:32:34,629] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-13 08:32:36,013] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-13 08:32:36,240] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-13 08:32:36,469] Register - Step 04: Enter to Email textbox with value is 'auto3842@hotmail.com'
+[INFO ] [2022-09-13 08:32:36,648] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:32:36,807] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:32:37,056] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-13 08:32:38,961] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-13 08:32:39,041] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:32:39,042] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-13 08:32:40,039] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-13 08:32:40,976] Login - Step 02: Enter to Email textbox with value is 'auto3842@hotmail.com'
+[INFO ] [2022-09-13 08:32:41,105] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:32:41,220] Login - Step 04: Click to Login button
+[INFO ] [2022-09-13 08:32:42,290] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-13 08:32:42,415] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:32:42,415] Login - Step 06: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-13 08:32:43,130] Login - Step 07: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-13 08:32:43,232] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:56:35,490] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-13 08:56:36,923] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-13 08:56:37,086] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-13 08:56:37,219] Register - Step 04: Enter to Email textbox with value is 'auto9035@hotmail.com'
+[INFO ] [2022-09-13 08:56:37,358] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:56:37,487] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:56:37,615] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-13 08:56:39,690] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-13 08:56:39,781] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:56:39,782] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-13 08:56:40,620] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-13 08:56:41,787] Login - Step 02: Enter to Email textbox with value is 'auto9035@hotmail.com'
+[INFO ] [2022-09-13 08:56:41,913] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 08:56:42,038] Login - Step 04: Click to Login button
+[INFO ] [2022-09-13 08:56:42,864] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-13 08:56:42,972] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 08:56:42,972] Login - Step 06: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-13 08:56:43,675] Login - Step 07: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-13 08:56:43,799] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:13:47,526] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-13 09:13:48,948] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-13 09:13:49,119] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-13 09:13:49,255] Register - Step 04: Enter to Email textbox with value is 'auto1028@hotmail.com'
+[INFO ] [2022-09-13 09:13:49,398] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:13:49,526] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:13:49,636] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-13 09:13:51,778] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-13 09:13:51,867] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:13:51,868] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-13 09:13:52,724] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-13 09:13:53,898] Login - Step 02: Enter to Email textbox with value is 'auto1028@hotmail.com'
+[INFO ] [2022-09-13 09:13:54,034] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:13:54,156] Login - Step 04: Click to Login button
+[INFO ] [2022-09-13 09:13:55,012] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-13 09:13:55,152] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:13:55,153] Login - Step 06: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-13 09:13:55,947] Login - Step 07: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-13 09:13:56,069] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:23:58,501] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-13 09:23:59,641] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-13 09:23:59,803] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-13 09:23:59,930] Register - Step 04: Enter to Email textbox with value is 'auto7591@hotmail.com'
+[INFO ] [2022-09-13 09:24:00,107] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:24:00,228] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:24:00,334] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-13 09:24:02,148] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-13 09:24:02,244] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:24:02,245] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-13 09:24:03,080] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-13 09:24:03,845] Login - Step 02: Enter to Email textbox with value is 'auto7591@hotmail.com'
+[INFO ] [2022-09-13 09:24:03,989] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:24:04,123] Login - Step 04: Click to Login button
+[INFO ] [2022-09-13 09:24:04,959] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-13 09:24:05,064] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:24:05,064] Login - Step 06: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-13 09:24:05,776] Login - Step 07: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-13 09:24:05,880] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:24:14,011] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-13 09:24:14,692] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-13 09:24:14,909] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-13 09:24:15,143] Register - Step 04: Enter to Email textbox with value is 'auto4821@hotmail.com'
+[INFO ] [2022-09-13 09:24:15,411] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:24:15,633] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:24:15,811] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-13 09:24:17,457] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-13 09:24:17,540] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:24:17,540] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-13 09:24:18,652] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-13 09:24:20,984] Login - Step 02: Enter to Email textbox with value is 'auto4821@hotmail.com'
+[INFO ] [2022-09-13 09:24:21,184] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-13 09:24:21,351] Login - Step 04: Click to Login button
+[INFO ] [2022-09-13 09:24:22,146] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-13 09:24:22,292] -------------------------FAILED--------------------------
+[INFO ] [2022-09-13 09:24:22,292] Login - Step 06: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-13 09:24:22,960] Login - Step 07: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-13 09:24:23,054] -------------------------FAILED--------------------------
