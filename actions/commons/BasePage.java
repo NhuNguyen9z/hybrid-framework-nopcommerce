@@ -513,7 +513,7 @@ public class BasePage {
 
 	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
 		// Đường dẫn của thư mục uploadFiles: Window/ Mac/ Linux
-		String filePath = GlobalConstant.UPLOAD_FILE;
+		String filePath = GlobalConstants.UPLOAD_FILE;
 
 		// Đường dẫn của all các file
 		// 1 file: Java.png
@@ -583,6 +583,6 @@ public class BasePage {
 
 	}
 
-	private long longTimeout = GlobalConstant.LONG_TIMEOUT;
-	private long shortTimeout = GlobalConstant.SHORT_TIMEOUT;
+	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 }

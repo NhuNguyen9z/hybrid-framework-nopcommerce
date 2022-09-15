@@ -65,7 +65,7 @@ public class BaseTest {
 			WebDriverManager.chromedriver().driverVersion("93.0.4577.63").setup();
 			ChromeOptions options = new ChromeOptions();
 
-			if (GlobalConstant.OS_NAME.startsWith("Windows")) {
+			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
 				options.setBinary("C:\\Program Files (x86)\\CocCoc\\Browser\\Application\\browser.exe");
 			} else {
 				options.setBinary("...");
@@ -81,8 +81,8 @@ public class BaseTest {
 			throw new RuntimeException("Browser name invalid");
 		}
 
-		driverBaseTest.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIMEOUT, TimeUnit.SECONDS); // Setting timeout
-		driverBaseTest.get(GlobalConstant.PORTAL_PAGE_URL);
+		driverBaseTest.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS); // Setting timeout
+		driverBaseTest.get(GlobalConstants.PORTAL_PAGE_URL);
 
 		return driverBaseTest;
 
@@ -137,7 +137,7 @@ public class BaseTest {
 			throw new RuntimeException("Browser name invalid");
 		}
 
-		driverBaseTest.manage().timeouts().implicitlyWait(GlobalConstant.LONG_TIMEOUT, TimeUnit.SECONDS); // Setting timeout
+		driverBaseTest.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS); // Setting timeout
 		driverBaseTest.get(urlApp);
 
 		return driverBaseTest;
@@ -214,5 +214,10 @@ public class BaseTest {
 			Reporter.getCurrentTestResult().setThrowable(e);
 		}
 		return pass;
+	}
+
+	public WebDriver getDriverInstance() {
+
+		return this.driverBaseTest;
 	}
 }

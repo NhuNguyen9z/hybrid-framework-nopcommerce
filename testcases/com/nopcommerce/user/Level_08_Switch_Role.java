@@ -8,7 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import commons.GlobalConstant;
+import commons.GlobalConstants;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
@@ -41,7 +41,7 @@ public class Level_08_Switch_Role extends BaseTest {
 		userCustomerInforPage = userHomePage.openCustomerInforPage();
 		userHomePage = userCustomerInforPage.clickToLogoutLinkAtUserPage();
 
-		userHomePage.openPageUrl(driver, GlobalConstant.ADMIN_PAGE_URL);
+		userHomePage.openPageUrl(driver, GlobalConstants.ADMIN_PAGE_URL);
 		adminLoginPage = PageGeneratorManager.getAminLoginPage(driver);
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmailAdress, adminValidPasswprd);
 		Assert.assertTrue(adminDashboardPage.isDasboardHeaderDisplayed());
@@ -51,7 +51,7 @@ public class Level_08_Switch_Role extends BaseTest {
 
 	@Test
 	public void Role_02_Admin_To_User() {
-		adminLoginPage.openPageUrl(driver, GlobalConstant.PORTAL_PAGE_URL);
+		adminLoginPage.openPageUrl(driver, GlobalConstants.PORTAL_PAGE_URL);
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 		userLoginPage = userHomePage.openLoginPage();
 		userHomePage = userLoginPage.loginAsUser(userEmailAddress, userValidPassword);

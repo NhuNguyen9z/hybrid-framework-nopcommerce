@@ -2,7 +2,7 @@ package javaBasic;
 
 import java.io.File;
 
-import commons.GlobalConstant;
+import commons.GlobalConstants;
 
 public class Topic_17_System_Property {
 
@@ -20,7 +20,7 @@ public class Topic_17_System_Property {
 		System.out.println(UPLOAD_FILE_FOLDER);
 		System.out.println(OS_NAME);
 
-		String filePath = GlobalConstant.UPLOAD_FILE;
+		String filePath = GlobalConstants.UPLOAD_FILE;
 		String[] fileNames = { "Java.png", "CSharp.png", "Python.jpg" };
 		String fullFileName = "";
 		for (String file : fileNames) {
