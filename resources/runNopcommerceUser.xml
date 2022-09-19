@@ -13,7 +13,8 @@
 	<test name="Test On Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_15_ExtentV5_ScreenShot" />
+			<class name="com.nopcommerce.common.Common_02_Register_Cookie" />
+			<class name="com.nopcommerce.user.Level_16_Share_Data_C" />
 		</classes>
 	</test>
 
