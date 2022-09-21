@@ -15,7 +15,7 @@ import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
 @Listeners(commons.MethodListener.class)
-public class Level_17_Customer_Close_Browser_Driver extends BaseTest {
+public class Level_17_Custom_Close_Browser_Driver extends BaseTest {
 
 	@Parameters("browser")
 	@BeforeClass
