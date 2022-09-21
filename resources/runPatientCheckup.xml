@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Patient Checkup" parallel="false">
+	<parameter name="enviroment" value="DEV" />
+	
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+	</listeners>
+	
+	<test name="Test On Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://compare-staging.patientpop.com/checkup" />
+		<classes>
+			<class name="com.patientpop.checkup.Level_18_Pattern_Object" />
+		</classes>
+	</test>
+
+
+</suite> 

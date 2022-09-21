@@ -128,34 +128,34 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		// Page A qua Page B: mở page B lên trước rồi khởi tạo page B lên sau
 
 		// Customer Infor -> Address
-		customerInfoPage.openPagesByName(driver, "Addresses");
+		customerInfoPage.openPagesAtMyAccountByPageName(driver, "Addresses");
 		addressPage = PageGeneratorManager.getAddressPage(driver); // khởi tạo ở tầng testcase
 		// Address -> My Product Review
-		addressPage.openPagesByName(driver, "My product reviews");
+		addressPage.openPagesAtMyAccountByPageName(driver, "My product reviews");
 		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
 
 		// My Product Review -> Reward Point
-		myProductReviewPage.openPagesByName(driver, "Reward points");
+		myProductReviewPage.openPagesAtMyAccountByPageName(driver, "Reward points");
 		rewardPointPage = PageGeneratorManager.getRewardPointPage(driver);
 
 		// Reward Point -> Address
-		rewardPointPage.openPagesByName(driver, "Addresses");
+		rewardPointPage.openPagesAtMyAccountByPageName(driver, "Addresses");
 		addressPage = PageGeneratorManager.getAddressPage(driver);
 
 		// Address -> Reward Point
-		addressPage.openPagesByName(driver, "Reward points");
+		addressPage.openPagesAtMyAccountByPageName(driver, "Reward points");
 		rewardPointPage = PageGeneratorManager.getRewardPointPage(driver);
 
 		// Reward Point -> My Product Review
-		rewardPointPage.openPagesByName(driver, "My product reviews");
+		rewardPointPage.openPagesAtMyAccountByPageName(driver, "My product reviews");
 		myProductReviewPage = PageGeneratorManager.getMyProductReviewPage(driver);
 
 		// My Product Review -> Customer Infor
-		myProductReviewPage.openPagesByName(driver, "Customer info");
+		myProductReviewPage.openPagesAtMyAccountByPageName(driver, "Customer info");
 		customerInfoPage = PageGeneratorManager.getCustomerInforPage(driver);
 
 		// Customer Infor -> Reward Point
-		customerInfoPage.openPagesByName(driver, "Reward points");
+		customerInfoPage.openPagesAtMyAccountByPageName(driver, "Reward points");
 		rewardPointPage = PageGeneratorManager.getRewardPointPage(driver);
 
 	}

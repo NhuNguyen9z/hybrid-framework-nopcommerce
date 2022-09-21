@@ -3,9 +3,7 @@ package pageObjects.nopCommerce.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import commons.PageGeneratorManager;
 import pageUIs.nopCommerce.user.UserCustomerInforPageUI;
-import pageUIs.nopCommerce.user.UserHomePageUI;
 
 public class UserCustomerInforPageObject extends BasePage {
 	WebDriver driver;
@@ -22,12 +20,6 @@ public class UserCustomerInforPageObject extends BasePage {
 	public void clickToNewsletterCheckbox() {
 		// TODO Auto-generated method stub
 
-	}
-
-	public UserHomePageObject clickToLogoutLinkAtUserPage() {
-		waitForElementClickable(driver, UserHomePageUI.LOGOUT_LINK);
-		clickToElement(driver, UserHomePageUI.LOGOUT_LINK);
-		return PageGeneratorManager.getUserHomePage(driver);
 	}
 
 }
