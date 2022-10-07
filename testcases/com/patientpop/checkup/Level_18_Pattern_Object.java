@@ -19,18 +19,18 @@ public class Level_18_Pattern_Object extends BaseTest {
 	public void BeforeClass(String browserName, String urlApp) {
 		driver = getBrowserDriver(browserName, urlApp);
 		checkupPage = PageGeneratorManager.getCheckupPage(driver);
-		practiceName = "Las Vegas Hilton at Resorts World";
-		streetAddress = "999 West Resorts World Drive";
-		city = "Las Vegas";
-		state = "Nevada";
-		zipcode = "89109";
-		website = "https://www.hilton.com/en/hotels/lashhhh-las-vegas-hilton-at-resorts-world/";
+		practiceName = "Nationals Park";
+		streetAddress = "1500 South Capitol Street Southeast";
+		city = "Washington";
+		state = "Washington DC";
+		zipcode = "20003";
+		website = "https://www.mlb.com/nationals/ballpark";
 		specialtyName = "Endocrinology and Metabolism Specialist";
 	}
 
 	@Test
 	public void TC_01_CheckupPage() {
-		checkupPage.inputAndSelectValueInDropdown("Las Vegas", "Las Vegas Hilton at Resorts World");
+		checkupPage.inputAndSelectValueInDropdown(practiceName, practiceName);
 		checkupPage.sleepInSecond(5);
 		Assert.assertEquals(checkupPage.getTextboxValueByID("practicename"), practiceName);
 		Assert.assertEquals(checkupPage.getTextboxValueByID("streetaddress"), streetAddress);

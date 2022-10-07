@@ -22,7 +22,7 @@ public class Level_06_Page_Generator_Manager_III extends BaseTest {
 		driver = getBrowserDriver(browserName);
 		// driver khởi tạo xong map vào getHomePage(driver)
 		homePage = PageGeneratorManager.getHomePage(driver);
-		emailAddress = "autofc" + generateFakeEmail() + "@mail.com";
+		emailAddress = "autofc" + generateFakeNumber() + "@mail.com";
 		firstName = "Atuomation";
 		lastName = "FC";
 		validPassword = "123456";

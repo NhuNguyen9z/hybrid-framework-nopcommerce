@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WordPress" parallel="false">
+	<parameter name="enviroment" value="DEV" />
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+	</listeners>
+
+	<test name="Test On Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="urlAdmin" value="https://automationfc.net/wp-admin/" />
+		<parameter name="urlUser" value="https://automationfc.net/" />
+		<!-- <classes> -->
+		<!-- <class name="com.facebook.register.Level_13_Element_Undisplayed" /> -->
+		<!-- </classes> -->
+		<packages>
+			<package name="com.wordpress.admin" />
+		</packages>
+	</test>
+
+
+</suite> 

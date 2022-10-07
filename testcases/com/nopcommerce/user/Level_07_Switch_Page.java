@@ -28,7 +28,7 @@ public class Level_07_Switch_Page extends BaseTest {
 
 		firstName = "Automation";
 		lastName = "Testing";
-		emailAddress = "auto" + generateFakeEmail() + "@hotmail.com";
+		emailAddress = "auto" + generateFakeNumber() + "@hotmail.com";
 		validPassword = "123456";
 		System.out.println(emailAddress);
 

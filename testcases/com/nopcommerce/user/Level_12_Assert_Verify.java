@@ -26,7 +26,7 @@ public class Level_12_Assert_Verify extends BaseTest {
 
 		firstName = "Automation";
 		lastName = "Testing";
-		emailAddress = "auto" + generateFakeEmail() + "@hotmail.com";
+		emailAddress = "auto" + generateFakeNumber() + "@hotmail.com";
 		validPassword = "123456";
 		System.out.println(emailAddress);
 

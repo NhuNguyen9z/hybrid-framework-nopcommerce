@@ -106,7 +106,7 @@ public class Level_04_Multi_Browser extends BaseTest {
 
 	}
 
-	public int generateFakeEmail() {
+	public int generateFakeNumber() {
 		Random random = new Random();
 		return random.nextInt(9999);
 	}

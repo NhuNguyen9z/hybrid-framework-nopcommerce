@@ -28,7 +28,7 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 
 		firstName = "Automation";
 		lastName = "Testing";
-		emailAddress = "auto" + generateFakeEmail() + "@hotmail.com";
+		emailAddress = "auto" + generateFakeNumber() + "@hotmail.com";
 		validPassword = "123456";
 		System.out.println(emailAddress);
 

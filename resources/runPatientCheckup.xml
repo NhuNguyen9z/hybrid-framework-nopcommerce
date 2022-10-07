@@ -6,8 +6,8 @@
 		<listener class-name="commons.MethodListener" />
 	</listeners>
 	
-	<test name="Test On Firefox">
-		<parameter name="browser" value="firefox" />
+	<test name="Test On Chrome">
+		<parameter name="browser" value="chrome" />
 		<parameter name="url" value="https://compare-staging.patientpop.com/checkup" />
 		<classes>
 			<class name="com.patientpop.checkup.Level_18_Pattern_Object" />

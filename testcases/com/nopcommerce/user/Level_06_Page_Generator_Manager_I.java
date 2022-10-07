@@ -31,8 +31,8 @@ public class Level_06_Page_Generator_Manager_I extends BaseTest {
 
 		firstName = "Automation";
 		lastName = "Testing";
-		existingEmail = "akp" + generateFakeEmail() + "@hotmail.com";
-		notFoundEmail = "akp" + generateFakeEmail() + "@yahoo.com";
+		existingEmail = "akp" + generateFakeNumber() + "@hotmail.com";
+		notFoundEmail = "akp" + generateFakeNumber() + "@yahoo.com";
 		invalidEmail = "123@123@";
 		validPassword = "123456";
 		incorrectPassword = "123123";

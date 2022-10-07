@@ -1,11 +1,14 @@
 package commons;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.joda.time.DateTime;
+import org.joda.time.DateTimeZone;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -94,7 +97,15 @@ public class BaseTest {
 		if (browserName.equals("firefox")) {
 
 			WebDriverManager.firefoxdriver().setup(); // tự tại driver tương ứng về
-			driverBaseTest = new FirefoxDriver();
+			FirefoxOptions options = new FirefoxOptions();
+			options.setAcceptInsecureCerts(false);
+			// options.addArguments("--disable-geolocation");
+			options.addPreference("dom.webnotifications.enabled", false);
+			options.addPreference("geo.enabled", false);
+			options.addPreference("geo.provider.use_corelocation", false);
+			options.addPreference("geo.prompt.testing", false);
+			options.addPreference("geo.prompt.testing.allow", false);
+			driverBaseTest = new FirefoxDriver(options);
 		} else if (browserName.equals("h_firefox")) { // headless firefox --- Auto for UI: ko nên dùng Headless
 			// Browser option: 3.xx
 			WebDriverManager.firefoxdriver().setup();
@@ -104,7 +115,12 @@ public class BaseTest {
 			driverBaseTest = new FirefoxDriver(options);
 		} else if (browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driverBaseTest = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.setAcceptInsecureCerts(true);
+			options.addArguments("--disable-geolocation");
+			options.setExperimentalOption("useAutomationExtension", false);
+			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			driverBaseTest = new ChromeDriver(options);
 		} else if (browserName.equals("h_chrome")) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
@@ -139,6 +155,7 @@ public class BaseTest {
 		}
 
 		driverBaseTest.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS); // Setting timeout
+		driverBaseTest.manage().window().maximize();
 		driverBaseTest.get(urlApp);
 
 		return driverBaseTest;
@@ -161,7 +178,7 @@ public class BaseTest {
 
 	}
 
-	protected int generateFakeEmail() {
+	protected int generateFakeNumber() {
 		Random random = new Random();
 		return random.nextInt(9999);
 	}
@@ -170,7 +187,7 @@ public class BaseTest {
 		boolean pass = true;
 		try { // nếu dk đúng thì nhảy vào try
 			Assert.assertTrue(condition);
-			log.info("-------------------------PASSED--------------------------");
+			log.info("-------------------------PASSED--------------------------"); // cái log.info này là của Log4J
 
 			// neu dk sai thi catch se bat lai
 		} catch (Throwable e) {
@@ -283,4 +300,34 @@ public class BaseTest {
 			}
 		}
 	}
+
+	protected String getCurrentDay() {
+		DateTime nowUTC = new DateTime(DateTimeZone.UTC);
+		int day = nowUTC.getDayOfMonth();
+		if (day < 10) {
+			String dayValue = "0" + day;
+			return dayValue;
+		}
+		return day + "";
+	}
+
+	protected String getCurrentMonth() {
+		DateTime now = new DateTime(DateTimeZone.UTC);
+		int month = now.getMonthOfYear();
+		if (month < 10) {
+			String monthValue = "0" + month;
+			return monthValue;
+		}
+		return month + "";
+	}
+
+	protected String getCurrentYear() {
+		DateTime now = new DateTime(DateTimeZone.UTC);
+		return now.getYear() + "";
+	}
+
+	protected String getCurrentDate() {
+		return getCurrentMonth() + "/" + getCurrentDay() + "/" + getCurrentYear();
+	}
+
 }

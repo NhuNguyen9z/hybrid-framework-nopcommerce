@@ -847,3 +847,2015 @@
 [INFO ] [2022-09-20 12:05:26,722] Customer-Infor - Step 08: Verify 'Month' value is correctly
 [INFO ] [2022-09-20 12:05:26,801] Customer-Infor - Step 09: Verify 'Year' value is correctly
 [INFO ] [2022-09-20 12:05:26,863] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-09-28 05:33:59,131] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-09-28 05:33:59,929] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-09-28 05:34:00,107] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-09-28 05:34:00,823] Register - Step 04: Enter to Email textbox with value is 'auto2777@hotmail.com'
+[INFO ] [2022-09-28 05:34:01,120] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-28 05:34:01,308] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-09-28 05:34:01,482] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-09-28 05:34:03,378] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-09-28 05:34:03,475] -------------------------PASSED--------------------------
+[INFO ] [2022-09-28 05:34:03,475] Register - Step 09: Click to Logout link
+[INFO ] [2022-09-28 05:34:04,391] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-09-28 05:34:04,984] Login - Step 02: Enter to Email textbox with value is 'auto2777@hotmail.com'
+[INFO ] [2022-09-28 05:34:05,158] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-09-28 05:34:05,325] Login - Step 04: Click to Login button
+[INFO ] [2022-09-28 05:34:06,207] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-09-28 05:34:06,311] -------------------------PASSED--------------------------
+[INFO ] [2022-09-28 05:34:06,321] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-09-28 05:34:06,930] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-09-28 05:34:07,014] -------------------------PASSED--------------------------
+[INFO ] [2022-09-28 05:34:07,014] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-09-28 05:34:07,093] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-09-28 05:34:07,150] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-09-28 05:34:07,227] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-09-28 05:34:07,290] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-09-28 05:34:07,351] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-09-28 05:34:07,416] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-09-28 05:34:07,494] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-09-28 05:34:07,579] OS name = windows 10
+[INFO ] [2022-09-28 05:34:07,579] Driver instance name = chromedriver: chrome on windows (0b6922d41eda21b2d9c43932ced74a42)
+[INFO ] [2022-09-28 06:56:38,083] Admin - Step 01: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-28 06:56:38,492] Admin - Step 02: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-28 06:56:38,712] Admin - Step 03: Click to Login button
+[INFO ] [2022-09-28 06:56:41,555] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-28 06:56:43,076] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-28 06:56:43,085] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-28 06:56:46,597] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-28 06:56:48,602] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-28 06:56:51,133] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-28 06:56:51,837] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-28 06:56:53,363] -------------------------PASSED--------------------------
+[INFO ] [2022-09-28 06:56:53,489] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-28 06:56:54,791] OS name = windows 10
+[INFO ] [2022-09-28 06:56:54,791] Driver instance name = chromedriver: chrome on windows (540c5a260ed3d704c1ab9002bb79582c)
+[INFO ] [2022-09-28 06:59:48,854] Admin - Step 01: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-28 06:59:49,326] Admin - Step 02: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-28 06:59:49,857] Admin - Step 03: Click to Login button
+[INFO ] [2022-09-28 06:59:57,010] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-28 06:59:59,861] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-28 06:59:59,872] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-28 07:00:12,809] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-28 07:00:15,840] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-28 07:00:19,540] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-28 07:00:20,486] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-28 07:00:22,865] -------------------------PASSED--------------------------
+[INFO ] [2022-09-28 07:00:23,130] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-28 07:00:25,024] OS name = windows 10
+[INFO ] [2022-09-28 07:00:25,024] Driver instance name = chromedriver: chrome on windows (a3a6510a0427d59f969b19250a63cad6)
+[INFO ] [2022-09-29 08:37:09,562] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 08:37:15,086] OS name = windows 10
+[INFO ] [2022-09-29 08:37:15,086] Driver instance name = chromedriver: chrome on windows (62f9ce28c4a7b98aaf4cd4672ceea1e7)
+[INFO ] [2022-09-29 08:37:37,524] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 08:37:43,425] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 08:37:43,827] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 08:37:44,036] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 08:37:47,722] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 08:37:49,177] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 08:37:49,187] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 08:37:52,275] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 08:37:54,484] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 08:37:57,217] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 08:37:57,706] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 08:37:59,487] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 08:37:59,621] OS name = windows 10
+[INFO ] [2022-09-29 08:37:59,621] Driver instance name = chromedriver: chrome on windows (200bd14075f831ea83d5a09915d81fe0)
+[INFO ] [2022-09-29 09:31:28,128] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:31:33,970] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:31:34,352] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:31:34,567] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:31:37,400] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:31:38,922] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:31:38,932] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:31:42,157] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:31:44,224] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:31:46,878] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:31:47,858] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:31:49,313] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:31:49,458] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:31:50,776] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:31:51,065] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:32:21,522] OS name = windows 10
+[INFO ] [2022-09-29 09:32:21,522] Driver instance name = chromedriver: chrome on windows (5ef9e30591b9512b813ee1d4675bd468)
+[INFO ] [2022-09-29 09:32:21,531] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ef9e30591b9512b813ee1d4675bd468
+[INFO ] [2022-09-29 09:33:18,170] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:33:23,708] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:33:24,061] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:33:24,285] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:33:26,800] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:33:28,230] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:33:28,240] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:33:31,345] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:33:33,431] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:33:36,097] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:33:36,692] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:33:38,466] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:33:38,634] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:33:39,940] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:33:40,265] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:33:42,548] Search_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-29 09:33:42,672] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:33:42,672] Search_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-29 09:33:42,766] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:33:42,766] Search_Post - Step 07: Open browser and End User site
+[INFO ] [2022-09-29 09:33:44,133] Search_Post - Step 08: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 09:33:44,221] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:33:44,221] Search_Post - Step 09: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 09:33:44,301] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:33:44,302] Search_Post - Step 10: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 09:34:14,391] OS name = windows 10
+[INFO ] [2022-09-29 09:34:14,392] Driver instance name = chromedriver: chrome on windows (034029fd8388a5612c60d69b8c52e0ae)
+[INFO ] [2022-09-29 09:39:48,158] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:39:54,578] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:39:54,929] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:39:55,146] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:39:57,607] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:39:59,907] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:39:59,916] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:40:02,996] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:40:04,982] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:40:07,575] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:40:08,183] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:40:09,724] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:40:09,847] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:40:11,148] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:40:11,437] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:40:13,527] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 09:40:13,655] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:40:13,656] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 09:40:13,769] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:40:13,769] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 09:40:15,166] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 09:40:15,274] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 09:40:15,369] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 09:40:45,424] OS name = windows 10
+[INFO ] [2022-09-29 09:40:45,424] Driver instance name = chromedriver: chrome on windows (1b6b85b41e598c0d5252e97842fcc6d8)
+[INFO ] [2022-09-29 09:44:18,642] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:44:24,274] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:44:24,617] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:44:24,815] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:44:27,689] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:44:29,452] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:44:29,459] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:44:32,710] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:44:34,630] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:44:37,201] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:44:37,766] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:44:39,434] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:44:39,573] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:44:41,283] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:44:41,530] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:44:43,475] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 09:44:43,595] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:44:43,595] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 09:44:43,689] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:44:43,689] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 09:44:45,377] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 09:44:45,452] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 09:44:45,532] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 09:44:45,626] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 09:44:45,705] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 09:44:45,749] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 09:44:45,774] OS name = windows 10
+[INFO ] [2022-09-29 09:44:45,774] Driver instance name = chromedriver: chrome on windows (128066b0f9dcdd53a07ae1a92c3c6421)
+[INFO ] [2022-09-29 09:46:23,592] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:46:29,216] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:46:29,581] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:46:29,791] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:46:32,367] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:46:33,893] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:46:33,900] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:46:37,003] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:46:39,039] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:46:41,816] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:46:42,449] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:46:43,992] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:46:44,116] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:46:45,595] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:46:45,907] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:46:47,957] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 09:46:48,085] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:46:48,085] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 09:46:48,179] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:46:48,179] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 09:46:49,586] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 09:46:49,662] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 09:46:49,741] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 09:46:49,821] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 09:46:49,902] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 09:46:49,945] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 09:47:20,045] OS name = windows 10
+[INFO ] [2022-09-29 09:47:20,045] Driver instance name = chromedriver: chrome on windows (54bb2cc8362b16886cb5a8e64336ab1c)
+[INFO ] [2022-09-29 09:56:59,202] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:57:04,980] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:57:05,300] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:57:05,512] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:57:08,215] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:57:09,536] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:57:09,548] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:57:12,641] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:57:14,800] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:57:17,464] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:57:18,071] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:57:20,273] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:57:20,404] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:57:21,876] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:57:22,078] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:57:26,788] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 09:57:26,981] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:57:26,981] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 09:57:27,123] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:57:27,124] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 09:57:28,878] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 09:57:29,003] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 09:57:29,111] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 09:57:29,190] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 09:57:29,286] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 09:57:30,421] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 09:57:30,514] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 09:57:30,591] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 09:57:30,612] OS name = windows 10
+[INFO ] [2022-09-29 09:57:30,613] Driver instance name = chromedriver: chrome on windows (069047bed16eaa7bc34e293221a57783)
+[INFO ] [2022-09-29 09:58:33,784] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 09:58:39,149] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:58:39,510] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 09:58:39,711] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 09:58:42,656] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 09:58:44,160] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 09:58:44,173] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 09:58:47,348] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 09:58:49,285] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 09:58:51,964] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 09:58:52,551] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 09:58:54,151] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:58:54,293] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 09:58:55,576] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 09:58:55,876] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 09:58:57,947] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 09:58:58,075] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:58:58,076] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 09:58:58,176] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 09:58:58,176] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 09:58:59,432] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 09:58:59,508] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 09:58:59,586] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 09:58:59,663] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 09:58:59,743] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 09:59:00,802] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 09:59:00,896] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 09:59:00,959] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 09:59:01,021] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 09:59:01,096] OS name = windows 10
+[INFO ] [2022-09-29 09:59:01,096] Driver instance name = chromedriver: chrome on windows (c56fae8984aa51f0772a12258b2217f0)
+[INFO ] [2022-09-29 10:00:10,986] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 10:00:16,611] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:00:16,961] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:00:17,164] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 10:00:20,071] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 10:00:22,417] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 10:00:22,427] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 10:00:25,550] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 10:00:27,691] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 10:00:30,369] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 10:00:30,986] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 10:00:32,513] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 10:00:32,644] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 10:00:33,885] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 10:00:34,195] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 10:00:36,789] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 10:00:36,957] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 10:00:37,051] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 10:00:38,260] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 10:00:38,368] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 10:00:38,447] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 10:00:38,527] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 10:00:38,605] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 10:00:39,607] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 10:00:39,697] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 10:00:39,770] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 10:00:39,833] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 10:00:39,927] OS name = windows 10
+[INFO ] [2022-09-29 10:00:39,927] Driver instance name = chromedriver: chrome on windows (3f4b84e4a0e63f1dbc178c11403977a2)
+[INFO ] [2022-09-29 10:00:54,088] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 10:00:58,645] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:00:59,010] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:00:59,224] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 10:01:02,323] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 10:01:03,657] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 10:01:03,668] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 10:01:06,710] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 10:01:08,805] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 10:01:11,227] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 10:01:11,856] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 10:01:13,395] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 10:01:13,522] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 10:01:14,822] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 10:01:15,112] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 10:01:17,349] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 10:01:17,482] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 10:01:17,579] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 10:01:18,771] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 10:01:18,875] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 10:01:18,955] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 10:01:19,036] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 10:01:19,115] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 10:01:20,208] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 10:01:20,316] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 10:01:20,420] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 10:01:20,501] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 10:01:20,597] OS name = windows 10
+[INFO ] [2022-09-29 10:01:20,598] Driver instance name = chromedriver: chrome on windows (d0df06ee75e41e26eaa7d4fd76c5959f)
+[INFO ] [2022-09-29 10:05:09,767] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 10:05:15,359] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:05:15,703] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:05:15,920] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 10:05:19,101] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 10:05:21,502] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 10:05:21,511] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 10:05:24,679] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 10:05:26,803] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 10:05:29,279] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 10:05:29,978] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 10:05:31,601] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 10:05:31,734] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 10:05:32,996] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 10:05:33,309] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 10:05:35,390] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 10:05:35,503] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 10:05:35,603] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 10:05:36,886] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 10:05:36,985] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 10:05:37,064] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 10:05:37,160] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 10:05:37,256] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 10:05:38,351] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 10:05:38,426] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 10:05:38,504] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 10:05:38,567] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 10:05:38,659] OS name = windows 10
+[INFO ] [2022-09-29 10:05:38,660] Driver instance name = chromedriver: chrome on windows (70ed5506d9ea07b8ab5f86fce81ae816)
+[INFO ] [2022-09-29 10:10:22,508] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 10:10:27,864] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:10:28,264] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 10:10:28,477] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 10:10:34,582] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 10:10:36,406] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 10:10:36,417] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 10:10:39,697] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 10:10:41,659] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 10:10:44,065] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 10:10:44,727] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 10:10:46,282] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 10:10:46,409] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 10:10:47,930] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 10:10:48,203] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 10:10:50,337] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 10:10:50,459] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 10:10:50,554] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 10:10:51,956] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 10:10:52,052] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 10:10:52,130] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 10:10:52,210] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 10:10:52,291] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 10:10:53,312] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 10:10:53,393] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 10:10:53,471] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 10:10:53,549] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 10:10:53,639] OS name = windows 10
+[INFO ] [2022-09-29 10:10:53,639] Driver instance name = chromedriver: chrome on windows (9b9a0b1c468e161c00aae9a852551ddf)
+[INFO ] [2022-09-29 11:20:04,211] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 11:20:11,099] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:20:11,477] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:20:11,703] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 11:20:15,874] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 11:20:17,471] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 11:20:17,480] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 11:20:27,642] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 11:20:30,447] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 11:20:33,607] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 11:20:34,781] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 11:20:37,093] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 11:20:37,348] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 11:20:39,343] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 11:20:39,862] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 11:20:42,543] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 11:20:42,714] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 11:20:42,825] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 11:20:44,793] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 11:20:44,883] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 11:20:44,982] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 11:20:45,072] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 11:20:45,150] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 11:20:46,401] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 11:20:46,485] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 11:20:46,546] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 11:20:46,626] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 11:20:46,717] OS name = windows 10
+[INFO ] [2022-09-29 11:20:46,717] Driver instance name = chromedriver: chrome on windows (d441c147b96054c71359b1e935503ffc)
+[INFO ] [2022-09-29 11:28:25,601] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 11:28:31,253] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:28:31,625] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:28:31,838] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 11:28:35,214] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 11:28:36,807] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 11:28:36,815] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 11:28:40,228] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 11:28:42,436] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 11:28:45,008] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 11:28:45,589] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 11:28:47,249] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 11:28:47,384] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 11:28:49,636] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 11:28:49,876] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 11:28:51,827] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 11:28:51,969] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 11:28:52,063] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 11:28:53,408] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 11:28:53,492] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 11:28:53,571] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 11:28:53,664] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 11:28:53,745] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 11:28:54,757] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 11:28:54,845] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 11:28:54,922] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 11:28:54,999] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 11:28:55,091] OS name = windows 10
+[INFO ] [2022-09-29 11:28:55,092] Driver instance name = chromedriver: chrome on windows (57e63d4799cc6d4bca4a8366194c5def)
+[INFO ] [2022-09-29 11:42:27,337] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 11:42:32,907] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:42:33,264] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:42:33,465] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 11:42:36,765] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 11:42:38,310] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 11:42:38,322] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 11:42:41,445] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 11:42:43,650] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 11:42:46,211] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 11:42:46,829] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 11:42:48,345] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 11:42:48,469] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 11:42:49,784] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 11:42:50,097] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 11:42:52,154] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 11:42:52,281] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 11:42:52,374] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 11:42:53,847] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 11:42:53,933] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 11:42:54,015] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 11:42:54,104] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 11:42:54,183] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 11:42:55,344] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 11:42:55,453] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 11:42:55,539] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 11:42:55,638] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 11:42:55,727] OS name = windows 10
+[INFO ] [2022-09-29 11:42:55,728] Driver instance name = chromedriver: chrome on windows (2fac4e5f50800b310aba42fb4e602394)
+[INFO ] [2022-09-29 11:43:10,913] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 11:43:15,156] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:43:15,525] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:43:15,742] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 11:43:18,217] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 11:43:20,263] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 11:43:20,273] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 11:43:23,423] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 11:43:25,658] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 11:43:28,090] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 11:43:28,660] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 11:43:30,232] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 11:43:30,359] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 11:43:32,125] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 11:43:32,447] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 11:43:34,361] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 11:43:34,512] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 11:43:34,626] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 11:43:35,850] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 11:43:35,930] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 11:43:36,020] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 11:43:36,114] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 11:43:36,194] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 11:43:37,577] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 11:43:37,677] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 11:43:37,738] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 11:43:37,799] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 11:43:37,892] OS name = windows 10
+[INFO ] [2022-09-29 11:43:37,892] Driver instance name = chromedriver: chrome on windows (8008d8c43f54bba022b84a4c809acdc3)
+[INFO ] [2022-09-29 11:56:20,501] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 11:56:25,185] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:56:25,514] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 11:56:25,718] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 11:56:28,381] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 11:56:29,928] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 11:56:29,936] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 11:56:33,087] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 11:56:34,935] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 11:56:37,521] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 11:56:38,244] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 11:56:39,757] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 11:56:39,882] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 11:56:42,189] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 11:56:42,416] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 11:56:44,493] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 11:56:44,608] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 11:56:44,699] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 11:56:46,094] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 11:56:46,173] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 11:56:46,253] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 11:56:46,348] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 11:56:46,428] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 11:56:47,433] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 11:56:47,520] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 11:56:47,597] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 11:56:47,675] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 11:56:47,772] OS name = windows 10
+[INFO ] [2022-09-29 11:56:47,772] Driver instance name = chromedriver: chrome on windows (4231a89c26c1c5fae8e73c647df4f9ff)
+[INFO ] [2022-09-29 12:03:22,114] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 12:03:27,196] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 12:03:27,552] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 12:03:27,774] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 12:03:30,511] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 12:03:31,938] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 12:03:31,951] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 12:03:35,254] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 12:03:37,140] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 12:03:39,842] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 12:03:40,442] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 12:03:41,983] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 12:03:42,108] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 12:03:43,408] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 12:03:43,704] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 12:03:45,791] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 12:03:45,933] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 12:03:46,044] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 12:03:47,468] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 12:03:47,546] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 12:03:47,625] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 12:03:47,706] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 12:03:47,785] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 12:03:48,755] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 12:03:48,850] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 12:03:48,928] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 12:03:49,006] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 12:03:49,099] OS name = windows 10
+[INFO ] [2022-09-29 12:03:49,100] Driver instance name = chromedriver: chrome on windows (6065061e8972803b8c2a0819a42636b7)
+[INFO ] [2022-09-29 12:09:58,425] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-29 12:10:03,930] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-29 12:10:04,372] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-29 12:10:04,595] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-29 12:10:07,999] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-29 12:10:09,609] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-29 12:10:09,617] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-29 12:10:14,131] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-29 12:10:16,383] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-29 12:10:19,742] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-29 12:10:21,363] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-29 12:10:23,384] -------------------------PASSED--------------------------
+[INFO ] [2022-09-29 12:10:23,566] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-29 12:10:25,357] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-29 12:10:25,804] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-29 12:10:28,217] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-29 12:10:28,385] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-29 12:10:28,514] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-29 12:10:30,954] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-29 12:10:31,053] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-29 12:10:31,153] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-29 12:10:31,239] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-29 12:10:31,323] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-29 12:10:32,597] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-29 12:10:32,700] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-29 12:10:32,787] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-29 12:10:32,898] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-29 12:10:33,007] OS name = windows 10
+[INFO ] [2022-09-29 12:10:33,007] Driver instance name = chromedriver: chrome on windows (63353f44d098f7d0ba79b92e65404f1f)
+[INFO ] [2022-09-30 11:03:43,274] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:03:53,130] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:03:53,638] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:03:53,858] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:03:56,532] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:03:57,964] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:03:57,972] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:04:01,338] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:04:03,384] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:04:06,007] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:04:06,641] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:04:08,195] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:04:08,328] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:04:09,639] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:04:10,033] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:04:12,125] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:04:12,257] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:04:12,348] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:04:13,784] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:04:13,875] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:04:13,955] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:04:14,048] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:04:14,139] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:04:15,303] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:04:15,381] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:04:15,460] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:04:15,538] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:04:15,630] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:04:16,873] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:04:18,227] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:04:18,490] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:04:20,559] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:04:20,668] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:04:20,771] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:04:50,989] OS name = windows 10
+[INFO ] [2022-09-30 11:04:50,989] Driver instance name = chromedriver: chrome on windows (71e135f0cf9adba28c1be36d1d059308)
+[INFO ] [2022-09-30 11:06:30,302] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:06:35,785] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:06:36,132] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:06:36,349] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:06:39,103] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:06:40,561] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:06:40,573] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:06:43,985] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:06:45,885] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:06:48,621] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:06:49,286] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:06:50,815] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:06:50,948] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:06:52,259] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:06:52,576] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:06:54,641] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:06:54,765] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:06:54,891] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:06:56,155] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:06:56,232] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:06:56,312] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:06:56,407] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:06:56,501] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:06:57,521] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:06:57,601] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:06:57,675] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:06:57,752] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:06:57,839] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:06:59,055] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:07:00,410] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:07:00,640] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:07:02,563] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:07:02,651] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:07:02,746] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:07:33,115] OS name = windows 10
+[INFO ] [2022-09-30 11:07:33,115] Driver instance name = chromedriver: chrome on windows (107a4672aee04273aa980cdbb8b7535e)
+[INFO ] [2022-09-30 11:08:57,761] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:09:02,390] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:09:02,739] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:09:02,952] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:09:05,657] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:09:07,242] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:09:07,250] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:09:10,518] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:09:12,470] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:09:14,987] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:09:15,747] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:09:17,296] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:09:17,416] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:09:18,695] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:09:19,145] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:09:21,233] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:09:21,352] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:09:21,447] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:09:38,554] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:09:38,703] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:09:38,779] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:09:38,842] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:09:38,923] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:09:40,453] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:09:40,535] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:09:40,612] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:09:40,689] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:09:40,796] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:09:42,216] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:09:43,567] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:09:43,856] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:09:45,872] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:09:45,975] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:09:46,073] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:09:49,191] Edit_Post - Step 07: Enter to edit post title
+[INFO ] [2022-09-30 11:09:50,906] Edit_Post - Step 08: Enter to edit post body 
+[INFO ] [2022-09-30 11:09:53,317] Edit_Post - Step 09: Click to 'Publish' button
+[INFO ] [2022-09-30 11:10:23,407] OS name = windows 10
+[INFO ] [2022-09-30 11:10:23,407] Driver instance name = chromedriver: chrome on windows (9c54bb4fc4bb2f01a481222d3771d90b)
+[INFO ] [2022-09-30 11:22:00,704] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:22:05,982] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:22:06,363] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:22:06,590] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:22:09,164] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:22:10,793] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:22:10,804] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:22:14,324] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:22:16,534] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:22:18,975] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:22:19,600] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:22:21,388] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:22:21,574] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:22:22,892] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:22:23,188] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:22:25,143] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:22:25,277] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:22:25,373] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:22:26,780] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:22:26,866] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:22:26,945] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:22:27,038] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:22:27,118] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:22:28,168] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:22:28,256] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:22:28,334] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:22:28,428] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:22:28,515] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:22:29,782] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:22:31,097] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:22:31,344] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:22:33,381] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:22:33,484] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:22:33,561] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:22:36,325] Edit_Post - Step 07: Enter to edit post title
+[INFO ] [2022-09-30 11:22:38,012] Edit_Post - Step 08: Enter to edit post body 
+[INFO ] [2022-09-30 11:22:40,332] Edit_Post - Step 09: Click to 'Publish' button
+[INFO ] [2022-09-30 11:23:10,419] OS name = windows 10
+[INFO ] [2022-09-30 11:23:10,420] Driver instance name = chromedriver: chrome on windows (781552553f835d731838c89c0bd39450)
+[INFO ] [2022-09-30 11:31:41,300] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:31:47,074] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:31:47,506] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:31:47,757] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:31:50,466] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:31:51,878] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:31:51,891] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:31:55,220] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:31:57,459] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:31:59,961] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:32:30,547] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:32:30,610] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:32:30,664] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:32:30,672] OS name = windows 10
+[INFO ] [2022-09-30 11:32:30,673] Driver instance name = chromedriver: chrome on windows (b13b06eb299eff5d0fada08da13ebc77)
+[INFO ] [2022-09-30 11:33:09,917] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:33:14,361] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:33:14,740] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:33:14,967] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:33:17,394] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:33:18,757] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:33:18,766] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:33:22,160] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:33:24,399] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:33:27,077] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:33:27,699] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:33:29,229] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:33:29,379] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:33:30,799] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:33:31,156] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:33:33,164] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:33:33,289] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:33:33,384] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:33:34,650] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:33:34,728] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:33:34,806] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:33:34,900] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:33:34,995] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:33:36,086] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:33:36,168] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:33:36,263] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:33:36,338] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:33:36,424] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:33:37,721] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:33:39,058] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:33:39,291] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:33:41,257] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:33:41,351] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:33:41,431] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:33:44,543] Edit_Post - Step 07: Enter to edit post title
+[INFO ] [2022-09-30 11:33:46,527] Edit_Post - Step 08: Enter to edit post body 
+[INFO ] [2022-09-30 11:33:48,412] Edit_Post - Step 09: Click to 'Publish' button
+[INFO ] [2022-09-30 11:34:08,185] OS name = windows 10
+[INFO ] [2022-09-30 11:34:08,186] Driver instance name = chromedriver: chrome on windows (c02ded4984f9bf4b8caf552fb6eb7190)
+[INFO ] [2022-09-30 11:36:40,802] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:36:46,043] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:36:46,524] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:36:46,790] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:36:49,337] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:36:50,777] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:36:50,788] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:36:54,048] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:36:56,804] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:36:59,063] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:36:59,648] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:37:01,160] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:37:01,301] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:37:02,573] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:37:02,921] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:37:05,018] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:37:05,168] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:37:05,310] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:37:06,578] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:37:06,659] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:37:06,737] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:37:06,817] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:37:06,897] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:37:07,943] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:37:08,040] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:37:08,117] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:37:08,210] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:37:08,296] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:37:09,620] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:37:10,969] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:37:11,278] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:37:13,317] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:37:13,435] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:37:13,512] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:37:16,675] Edit_Post - Step 07: Enter to edit post title
+[INFO ] [2022-09-30 11:37:18,631] Edit_Post - Step 08: Enter to edit post body 
+[INFO ] [2022-09-30 11:37:20,542] Edit_Post - Step 09: Click to 'Publish' button
+[INFO ] [2022-09-30 11:37:50,629] OS name = windows 10
+[INFO ] [2022-09-30 11:37:50,629] Driver instance name = chromedriver: chrome on windows (18aee04bd54d9f8e5ff4121a83e91a2e)
+[INFO ] [2022-09-30 11:41:45,221] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:41:50,713] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:41:51,127] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:41:51,378] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:41:53,988] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:41:55,536] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:41:55,545] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:41:59,040] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:42:01,471] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:42:03,923] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:42:04,499] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:42:06,159] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:42:06,335] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:42:07,713] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:42:08,058] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:42:10,121] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:42:10,243] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:42:10,365] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:42:11,690] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:42:11,771] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:42:11,849] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:42:11,929] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:42:12,022] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:42:13,058] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:42:13,131] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:42:13,195] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:42:13,273] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:42:13,364] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:42:14,673] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:42:16,000] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:42:16,293] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:42:18,216] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:42:18,309] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:42:18,399] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:42:21,596] Edit_Post - Step 07: Enter to edit post title
+[INFO ] [2022-09-30 11:42:23,119] Edit_Post - Step 08: Enter to edit post body 
+[INFO ] [2022-09-30 11:42:25,443] Edit_Post - Step 09: Click to 'Update' button
+[INFO ] [2022-09-30 11:42:55,502] OS name = windows 10
+[INFO ] [2022-09-30 11:42:55,502] Driver instance name = chromedriver: chrome on windows (4d04490587d54607445efd2c0cc503a4)
+[INFO ] [2022-09-30 11:49:57,488] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 11:50:02,545] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:50:02,956] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 11:50:03,223] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 11:50:05,984] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:50:07,432] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 11:50:07,441] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 11:50:10,756] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 11:50:13,163] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 11:50:15,798] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 11:50:16,369] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 11:50:17,848] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:50:17,969] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:50:19,388] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:50:19,738] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:50:21,766] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:50:21,888] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:50:21,998] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 11:50:23,290] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:50:23,368] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:50:23,441] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:50:23,562] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:50:23,665] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:50:24,748] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 11:50:24,820] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 11:50:24,898] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 11:50:24,979] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 11:50:25,063] Edit_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 11:50:26,464] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 11:50:27,914] Edit_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 11:50:28,225] Edit_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:50:30,203] Edit_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 11:50:30,300] Edit_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 11:50:30,379] Edit_Post - Step 06: Click To Post title link
+[INFO ] [2022-09-30 11:50:33,390] Edit_Post - Step 07: Enter to edit post title
+[INFO ] [2022-09-30 11:50:35,085] Edit_Post - Step 08: Enter to edit post body 
+[INFO ] [2022-09-30 11:50:37,350] Edit_Post - Step 09: Click to 'Update' button
+[INFO ] [2022-09-30 11:50:37,521] Edit_Post - Step 10: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 11:50:38,568] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 11:50:38,568] Edit_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 11:50:39,878] Edit_Post - Step 12: Input to Search textbox
+[INFO ] [2022-09-30 11:50:40,252] Edit_Post - Step 13: Click to 'Search Posts' button
+[INFO ] [2022-09-30 11:50:42,294] Edit_Post - Step 14: Verify Post title is displayed
+[INFO ] [2022-09-30 11:50:42,401] Edit_Post - Step 15: Verify Post author is displayed
+[INFO ] [2022-09-30 11:50:42,478] Edit_Post - Step 16: Open browser and End User site
+[INFO ] [2022-09-30 11:50:43,405] Edit_Post - Step 17: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 11:50:43,481] Edit_Post - Step 18: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 11:50:43,559] Edit_Post - Step 19: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 11:50:43,650] Edit_Post - Step 20: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 11:50:43,728] Edit_Post - Step 21: Click to 'Posts title' link
+[INFO ] [2022-09-30 11:50:44,760] Edit_Post - Step 22: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 11:50:45,096] OS name = windows 10
+[INFO ] [2022-09-30 11:50:45,096] Driver instance name = chromedriver: chrome on windows (182a971e1105a74bfa79fd1e151c6435)
+[INFO ] [2022-09-30 13:30:57,216] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:31:04,404] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:31:04,853] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:31:05,129] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:31:07,796] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:31:09,115] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:31:09,123] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:31:12,694] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:31:13,942] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:31:17,305] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:31:18,347] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:31:20,611] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:31:20,753] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:31:21,943] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:31:22,288] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:31:24,335] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:31:24,457] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:31:24,569] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:31:25,857] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:31:25,943] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:31:26,021] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:31:26,099] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:31:26,179] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:31:27,366] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:31:27,449] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:31:27,527] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:31:27,604] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:31:27,694] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:31:28,903] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:31:30,184] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:31:30,434] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:31:32,375] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:31:32,500] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:31:32,608] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:31:35,632] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:31:37,123] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:31:39,609] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:31:39,757] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:31:40,796] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:31:40,796] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:31:41,942] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:31:42,239] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:31:44,210] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:31:44,372] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:31:44,465] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:31:46,028] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:31:46,107] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:31:46,169] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:31:46,250] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:31:46,328] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:31:47,280] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:31:47,605] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:31:48,864] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:31:50,051] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:31:50,287] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:31:52,203] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:31:52,314] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:31:52,413] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:31:52,640] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:31:52,803] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:31:54,699] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:31:54,788] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:31:55,815] Delete_Post - Step 12: Input to Search textbox
+[INFO ] [2022-09-30 13:31:56,097] Delete_Post - Step 13: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:31:57,988] Delete_Post - Step 14: Verify 'No posts found.' message is displayed
+[INFO ] [2022-09-30 13:31:58,077] Delete_Post - Step 15: Open 'End User' site
+[INFO ] [2022-09-30 13:31:58,925] Edit_Post - Step 11: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:31:59,013] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:31:59,279] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:31:59,423] Edit_Post - Step 11: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:31:59,529] OS name = windows 10
+[INFO ] [2022-09-30 13:31:59,529] Driver instance name = chromedriver: chrome on windows (a3b2499497d1aff954935018f32cbe48)
+[INFO ] [2022-09-30 13:32:47,454] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:32:53,118] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:32:53,742] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:32:54,042] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:32:58,332] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:33:00,727] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:33:00,755] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:33:05,981] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:33:07,945] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:33:10,626] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:33:11,225] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:33:13,122] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:33:13,264] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:33:14,665] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:33:15,014] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:33:17,041] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:33:17,202] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:33:17,324] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:33:18,625] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:33:18,718] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:33:18,813] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:33:18,892] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:33:18,970] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:33:20,068] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:33:20,187] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:33:20,316] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:33:20,403] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:33:20,493] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:33:21,801] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:33:23,011] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:33:23,300] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:33:25,254] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:33:25,384] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:33:25,474] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:33:28,579] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:33:30,204] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:33:32,263] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:33:32,564] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:33:33,583] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:33:33,583] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:33:34,723] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:33:35,013] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:33:37,013] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:33:37,136] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:33:37,215] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:33:38,069] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:33:38,191] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:33:38,254] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:33:38,330] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:33:38,407] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:33:39,347] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:33:39,691] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:33:41,009] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:33:42,265] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:33:42,498] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:33:44,513] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:33:44,631] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:33:44,710] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:33:44,897] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:33:45,059] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:33:47,030] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:33:47,125] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:33:48,126] Delete_Post - Step 12: Input to Search textbox
+[INFO ] [2022-09-30 13:34:18,193] OS name = windows 10
+[INFO ] [2022-09-30 13:34:18,193] Driver instance name = chromedriver: chrome on windows (3f8a4c1ee0673a63bcbebb34ad17af86)
+[INFO ] [2022-09-30 13:36:06,911] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:36:12,658] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:36:13,090] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:36:13,357] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:36:16,027] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:36:17,329] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:36:17,340] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:36:20,646] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:36:23,245] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:36:25,939] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:36:26,614] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:36:28,032] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:36:28,158] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:36:29,446] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:36:29,786] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:36:31,851] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:36:31,984] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:36:32,134] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:36:33,476] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:36:33,550] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:36:33,628] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:36:33,706] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:36:33,784] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:36:34,780] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:36:34,867] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:36:34,955] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:36:35,038] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:36:35,126] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:36:36,431] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:36:37,635] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:36:37,923] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:36:39,828] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:36:39,984] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:36:40,080] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:36:43,042] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:36:44,684] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:36:46,412] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:36:46,842] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:36:48,081] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:36:48,081] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:36:49,211] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:36:49,536] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:36:51,651] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:36:51,792] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:36:51,884] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:36:52,741] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:36:52,831] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:36:52,910] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:36:52,987] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:36:53,050] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:36:53,983] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:36:54,309] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:36:55,609] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:36:56,852] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:36:57,109] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:36:58,995] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:36:59,083] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:36:59,200] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:36:59,418] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:36:59,593] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:37:01,550] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:37:01,629] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:37:02,636] Delete_Post - Step 12: Input to Search textbox
+[INFO ] [2022-09-30 13:37:32,705] OS name = windows 10
+[INFO ] [2022-09-30 13:37:32,706] Driver instance name = chromedriver: chrome on windows (c56962e73d926f28c823118cd43bd56c)
+[INFO ] [2022-09-30 13:45:32,980] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:45:38,682] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:45:39,126] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:45:39,389] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:45:41,929] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:45:43,204] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:45:43,214] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:45:46,684] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:45:49,338] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:45:51,650] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:45:52,316] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:45:53,784] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:45:53,918] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:45:55,331] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:45:55,662] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:45:57,771] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:45:57,895] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:45:58,018] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:45:59,317] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:45:59,398] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:45:59,476] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:45:59,567] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:45:59,647] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:46:00,713] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:46:00,916] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:46:00,993] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:46:01,071] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:46:01,158] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:46:02,448] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:46:03,653] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:46:03,898] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:46:05,884] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:46:05,982] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:46:06,107] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:46:09,149] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:46:10,857] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:46:12,914] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:46:13,121] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:46:14,499] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:46:14,499] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:46:15,887] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:46:16,208] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:46:18,191] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:46:18,357] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:46:18,457] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:46:20,000] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:46:20,082] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:46:20,158] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:46:20,235] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:46:20,315] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:46:21,261] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:46:21,599] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:46:22,901] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:46:24,126] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:46:24,432] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:46:26,403] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:46:26,493] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:46:26,571] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:46:26,737] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:46:26,908] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:46:28,916] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:46:29,008] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:46:30,094] Delete_Post - Step 12: Verify Post title undisplayed
+[INFO ] [2022-09-30 13:46:35,199] Delete_Post - Step 14: Verify 'No posts found.' message is displayed
+[INFO ] [2022-09-30 13:46:35,287] Delete_Post - Step 15: Open 'End User' site
+[INFO ] [2022-09-30 13:46:36,227] Delete_Post - Step 16: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:46:36,310] Delete_Post - Step 17: Input to Search textbox
+[INFO ] [2022-09-30 13:46:36,568] Delete_Post - Step 18: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:46:36,741] Delete_Post - Step 19: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:46:36,844] OS name = windows 10
+[INFO ] [2022-09-30 13:46:36,844] Driver instance name = chromedriver: chrome on windows (b02d75c4f7cfe7256f11bfe7c8f5526c)
+[INFO ] [2022-09-30 13:48:04,896] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:48:09,568] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:48:09,997] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:48:10,264] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:48:12,852] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:48:14,347] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:48:14,359] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:48:17,684] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:48:20,388] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:48:22,919] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:48:23,612] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:48:25,057] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:48:25,185] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:48:26,480] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:48:26,816] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:48:28,851] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:48:29,001] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:48:29,096] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:48:30,367] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:48:30,447] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:48:30,533] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:48:30,620] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:48:30,699] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:48:31,813] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:48:31,918] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:48:31,978] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:48:32,055] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:48:32,142] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:48:33,453] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:48:34,796] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:48:35,052] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:48:37,072] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:48:37,171] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:48:37,248] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:48:40,428] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:48:43,028] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:48:44,801] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:48:44,968] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:48:45,996] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:48:45,997] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:48:47,198] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:48:47,559] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:48:49,622] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:48:49,752] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:48:49,843] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:48:50,780] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:48:50,855] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:48:50,918] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:48:50,996] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:48:51,073] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:48:52,027] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:48:52,397] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:48:53,714] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:48:55,122] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:48:55,365] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:48:57,388] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:48:57,497] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:48:57,587] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:48:57,748] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:48:57,939] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:48:59,919] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:49:00,003] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:49:01,050] Delete_Post - Step 12: Verify 'Post Title' undisplayed
+[INFO ] [2022-09-30 13:49:06,139] Delete_Post - Step 14: Verify 'No posts found.' message is displayed
+[INFO ] [2022-09-30 13:49:36,234] OS name = windows 10
+[INFO ] [2022-09-30 13:49:36,235] Driver instance name = chromedriver: chrome on windows (e87babed4ba9ccd99cd17334b11885cb)
+[INFO ] [2022-09-30 13:51:52,059] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:51:56,547] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:51:56,952] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:51:57,221] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:51:59,724] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:52:01,221] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:52:01,229] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:52:04,636] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:52:07,254] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:52:09,577] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:52:10,253] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:52:11,730] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:52:11,858] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:52:13,077] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:52:13,429] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:52:15,628] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:52:15,756] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:52:15,850] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:52:17,147] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:52:17,227] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:52:17,304] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:52:17,400] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:52:17,480] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:52:18,500] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:52:18,732] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:52:18,804] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:52:18,882] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:52:18,972] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:52:20,945] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:52:22,260] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:52:22,543] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:52:24,472] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:52:24,590] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:52:24,669] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:52:27,736] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:52:29,403] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:52:31,475] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:52:31,721] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:52:32,744] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:52:32,744] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:52:33,851] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:52:34,207] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:52:36,314] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:52:36,406] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:52:36,488] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:52:37,371] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:52:37,443] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:52:37,521] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:52:37,599] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:52:37,678] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:52:38,615] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:52:39,005] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:52:40,317] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:52:41,520] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:52:41,833] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:52:43,743] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:52:43,857] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:52:43,949] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:52:44,107] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:52:44,273] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:52:46,234] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:52:46,332] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:52:47,467] Delete_Post - Step 12: Verify 'Post Title' undisplayed
+[INFO ] [2022-09-30 13:52:52,554] Delete_Post - Step 15: Open 'End User' site
+[INFO ] [2022-09-30 13:52:53,471] Delete_Post - Step 16: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:52:53,559] Delete_Post - Step 17: Input to Search textbox
+[INFO ] [2022-09-30 13:52:53,833] Delete_Post - Step 18: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:52:54,009] Delete_Post - Step 19: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:52:54,134] OS name = windows 10
+[INFO ] [2022-09-30 13:52:54,135] Driver instance name = chromedriver: chrome on windows (8a7ae680674b973a754546e6ea0b22a2)
+[INFO ] [2022-09-30 13:53:28,221] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:53:33,205] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:53:33,629] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:53:33,892] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:53:36,297] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:53:37,617] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:53:37,624] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:53:40,794] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:53:43,206] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:53:45,697] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:53:46,563] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:53:48,138] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:53:48,262] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:53:49,512] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:53:49,877] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:53:52,038] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:53:52,183] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:53:52,293] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:53:53,574] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:53:53,677] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:53:53,752] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:53:53,831] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:53:53,908] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:53:54,972] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:53:55,056] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:53:55,135] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:53:55,195] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:53:55,282] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:53:56,537] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:53:57,754] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:53:58,049] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:54:00,050] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:54:00,219] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:54:00,357] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:54:03,445] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:54:04,637] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:54:06,654] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:54:06,987] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:54:08,495] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:54:08,495] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:54:09,666] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:54:09,994] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:54:12,035] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:54:12,138] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:54:12,219] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:54:13,123] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:54:13,213] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:54:13,290] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:54:13,374] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:54:13,462] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:54:14,407] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:54:14,761] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:54:16,083] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:54:17,398] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:54:17,667] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:54:20,431] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:54:20,536] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:54:20,617] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:54:20,780] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:54:20,955] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:54:22,866] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:54:22,984] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:54:24,028] Delete_Post - Step 12: Verify 'Post Title' undisplayed
+[INFO ] [2022-09-30 13:54:29,141] Delete_Post - Step 13: Open 'End User' site
+[INFO ] [2022-09-30 13:54:30,049] Delete_Post - Step 14: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:54:30,155] Delete_Post - Step 15: Input to Search textbox
+[INFO ] [2022-09-30 13:54:30,483] Delete_Post - Step 16: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:54:30,656] Delete_Post - Step 17: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:54:30,763] OS name = windows 10
+[INFO ] [2022-09-30 13:54:30,763] Driver instance name = chromedriver: chrome on windows (76a1ab829356cfeffdb6a2faa50954dd)
+[INFO ] [2022-09-30 13:55:00,051] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-09-30 13:55:04,457] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:55:04,883] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-09-30 13:55:05,155] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-09-30 13:55:07,542] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:55:08,918] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-09-30 13:55:08,929] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-09-30 13:55:12,096] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-09-30 13:55:14,558] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-09-30 13:55:16,963] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-09-30 13:55:17,528] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-09-30 13:55:19,003] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:55:19,129] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-09-30 13:55:20,308] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-09-30 13:55:20,653] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:55:22,698] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-09-30 13:55:22,834] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-09-30 13:55:22,943] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-09-30 13:55:24,241] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:55:24,327] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:55:24,408] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:55:24,487] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:55:24,566] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:55:25,625] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-09-30 13:55:25,713] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-09-30 13:55:25,808] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-09-30 13:55:25,872] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-09-30 13:55:25,962] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:55:27,179] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:55:28,474] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:55:28,765] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:55:30,654] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:55:30,747] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:55:30,828] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-09-30 13:55:33,988] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-09-30 13:55:35,781] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-09-30 13:55:37,955] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-09-30 13:55:38,119] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-09-30 13:55:39,156] -------------------------PASSED--------------------------
+[INFO ] [2022-09-30 13:55:39,156] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-09-30 13:55:40,264] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-09-30 13:55:40,599] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:55:42,605] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-09-30 13:55:42,751] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-09-30 13:55:42,844] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-09-30 13:55:43,736] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-09-30 13:55:43,816] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-09-30 13:55:43,897] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-09-30 13:55:43,973] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-09-30 13:55:44,053] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-09-30 13:55:44,986] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-09-30 13:55:45,322] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-09-30 13:55:46,760] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-09-30 13:55:47,920] Delete_Post - Step 03: Input to Search textbox
+[INFO ] [2022-09-30 13:55:48,159] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:55:50,112] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-09-30 13:55:50,266] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-09-30 13:55:50,394] Delete_Post - Step 07: Click to checkbox by Post
+[INFO ] [2022-09-30 13:55:50,558] Delete_Post - Step 08: Select 'Move to Trash' dropdown
+[INFO ] [2022-09-30 13:55:50,729] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-09-30 13:55:52,860] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-09-30 13:55:52,963] Delete_Post - Step 11: Open 'Search Post' page
+[INFO ] [2022-09-30 13:55:54,473] Delete_Post - Step 12: Verify 'Post Title' undisplayed
+[INFO ] [2022-09-30 13:55:59,617] Delete_Post - Step 13: Open 'End User' site
+[INFO ] [2022-09-30 13:56:00,675] Delete_Post - Step 14: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:56:00,781] Delete_Post - Step 15: Input to Search textbox
+[INFO ] [2022-09-30 13:56:01,086] Delete_Post - Step 16: Click to 'Search Posts' button
+[INFO ] [2022-09-30 13:56:01,276] Delete_Post - Step 17: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-09-30 13:56:01,405] OS name = windows 10
+[INFO ] [2022-09-30 13:56:01,405] Driver instance name = chromedriver: chrome on windows (4c9fb18bf20bc56186f3f8d0f0c618bd)
+[INFO ] [2022-10-07 07:52:16,509] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 07:52:25,175] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 07:52:25,647] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 07:52:25,869] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 07:52:29,738] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 07:52:31,423] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 07:52:31,432] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 07:52:35,295] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 07:52:37,116] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 07:52:40,048] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 07:52:40,540] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 07:52:42,116] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 07:52:42,268] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 07:52:43,574] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 07:52:43,871] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:52:46,158] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 07:52:46,264] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 07:52:46,359] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 07:52:47,667] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 07:52:47,752] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 07:52:47,829] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 07:52:47,910] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 07:52:47,988] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 07:52:49,128] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 07:52:49,206] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 07:52:49,283] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 07:52:49,360] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 07:52:49,473] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 07:52:50,631] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 07:52:51,933] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 07:52:52,174] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:52:54,088] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 07:52:54,184] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 07:52:54,279] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 07:52:57,296] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 07:52:59,105] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 07:53:00,961] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 07:53:01,347] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 07:53:02,438] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 07:53:02,438] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 07:53:04,651] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 07:53:04,843] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:53:06,766] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 07:53:06,880] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 07:53:06,975] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 07:53:07,836] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 07:53:07,950] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 07:53:08,043] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 07:53:33,381] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 07:53:37,505] OS name = windows 10
+[INFO ] [2022-10-07 07:53:37,505] Driver instance name = chromedriver: chrome on windows (680be292b607fc1d223efe4f615ea529)
+[INFO ] [2022-10-07 07:53:41,576] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9107
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] [2022-10-07 07:55:48,215] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 07:55:57,156] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 07:55:57,601] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 07:55:57,820] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 07:56:01,275] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 07:56:02,852] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 07:56:02,861] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 07:56:10,046] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 07:56:11,549] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 07:56:14,660] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 07:56:15,319] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 07:56:16,910] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 07:56:17,040] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 07:56:18,281] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 07:56:18,552] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:56:20,731] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 07:56:20,874] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 07:56:20,968] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 07:56:22,340] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 07:56:22,430] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 07:56:22,508] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 07:56:22,590] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 07:56:22,666] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 07:56:23,796] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 07:56:23,878] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 07:56:23,957] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 07:56:24,033] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 07:56:24,106] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 07:56:25,405] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 07:56:26,638] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 07:56:26,847] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:56:28,870] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 07:56:28,981] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 07:56:29,057] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 07:56:32,413] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 07:56:33,773] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 07:56:35,844] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 07:56:36,301] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 07:56:37,357] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 07:56:37,357] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 07:56:39,499] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 07:56:39,693] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:56:41,740] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 07:56:41,878] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 07:56:41,988] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 07:56:42,845] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 07:56:42,959] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 07:56:43,037] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 07:56:43,099] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 07:56:43,176] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-10-07 07:56:44,142] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 07:56:44,454] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 07:56:45,771] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 07:56:47,038] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 07:56:47,240] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:56:49,234] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 07:56:49,339] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 07:56:49,417] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 07:56:49,596] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 07:56:49,764] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 07:56:51,698] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 07:56:51,787] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 07:56:51,984] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 07:56:53,854] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 07:56:53,933] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 07:56:54,965] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 07:57:50,067] OS name = windows 10
+[INFO ] [2022-10-07 07:57:50,068] Driver instance name = chromedriver: chrome on windows (94543d08c183dc01aac86b332e8ae7e3)
+[INFO ] [2022-10-07 08:01:25,598] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 08:01:31,464] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:01:31,822] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:01:32,034] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 08:01:34,604] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:01:35,899] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 08:01:35,907] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 08:01:39,498] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 08:01:41,330] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 08:01:44,003] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 08:01:44,674] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 08:01:46,390] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:01:46,573] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 08:01:47,839] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 08:01:48,185] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:01:50,309] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 08:01:50,445] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 08:01:50,558] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 08:01:51,784] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:01:51,864] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:01:51,941] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:01:52,020] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:01:52,115] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:01:53,234] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 08:01:53,432] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 08:01:53,511] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 08:01:53,589] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 08:01:53,674] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:01:54,990] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:01:56,262] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 08:01:56,507] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:01:58,506] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:01:58,616] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:01:58,693] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 08:02:01,786] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 08:02:03,083] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 08:02:05,447] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 08:02:05,807] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 08:02:06,840] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:02:06,840] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 08:02:08,034] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 08:02:08,327] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:02:10,396] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 08:02:10,498] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 08:02:10,577] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 08:02:11,535] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:02:11,611] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:02:11,690] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:02:11,753] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:02:11,830] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:02:12,821] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 08:02:13,161] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:02:14,489] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:02:15,706] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:02:15,900] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:02:17,930] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:02:18,018] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:02:18,109] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 08:02:18,279] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 08:02:18,466] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 08:02:21,131] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 08:02:21,263] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:02:21,444] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:02:23,350] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 08:02:23,444] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 08:02:24,283] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 08:02:54,333] OS name = windows 10
+[INFO ] [2022-10-07 08:02:54,333] Driver instance name = chromedriver: chrome on windows (162a89f15a5eabc6d2c74526263571ca)
+[INFO ] [2022-10-07 08:08:35,248] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 08:08:41,687] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:08:42,048] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:08:42,250] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 08:08:44,988] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:08:46,477] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 08:08:46,485] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 08:08:50,065] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 08:08:51,922] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 08:08:54,498] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 08:08:55,080] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 08:08:56,649] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:08:56,780] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 08:08:58,043] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 08:08:58,324] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:09:00,518] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 08:09:00,688] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 08:09:00,783] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 08:09:02,074] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:09:02,151] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:09:02,230] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:09:02,321] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:09:02,398] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:09:03,614] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 08:09:03,692] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 08:09:03,769] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 08:09:03,845] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 08:09:03,930] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:09:05,164] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:09:06,478] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 08:09:06,699] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:09:08,666] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:09:08,766] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:09:08,861] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 08:09:11,849] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 08:09:13,351] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 08:09:15,237] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 08:09:15,671] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 08:09:16,793] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:09:16,793] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 08:09:17,956] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 08:09:18,215] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:09:20,871] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 08:09:20,971] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 08:09:21,065] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 08:09:21,906] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:09:22,015] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:09:22,080] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:09:22,157] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:09:22,233] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:09:23,156] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 08:09:23,484] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:09:24,783] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:09:26,083] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:09:26,297] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:09:28,219] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:09:28,365] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:09:28,477] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 08:09:28,652] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 08:09:28,827] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 08:09:30,741] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 08:09:30,845] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:09:31,044] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:09:32,892] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 08:09:32,973] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 08:09:33,813] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 08:09:38,887] Delete_Post - Step 16: Enter to Search textbox
+[INFO ] [2022-10-07 08:09:39,097] Delete_Post - Step 17: Click to 'Search' button
+[INFO ] [2022-10-07 08:09:39,238] Delete_Post - Step 18: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-10-07 08:10:09,291] OS name = windows 10
+[INFO ] [2022-10-07 08:10:09,292] Driver instance name = chromedriver: chrome on windows (7cdb9b2b6a2cd2b8b45906c9155ee51b)
+[INFO ] [2022-10-07 08:15:38,793] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 08:15:44,565] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:15:44,941] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:15:45,147] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 08:15:47,885] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:15:49,137] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 08:15:49,144] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 08:15:52,807] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 08:15:54,514] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 08:15:57,146] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 08:15:57,769] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 08:15:59,288] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:15:59,431] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 08:16:00,691] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 08:16:00,959] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:16:03,029] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 08:16:03,147] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 08:16:03,251] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 08:16:04,586] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:16:04,665] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:16:04,761] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:16:04,854] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:16:04,936] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:16:06,004] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 08:16:06,086] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 08:16:06,178] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 08:16:06,255] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 08:16:06,340] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:16:07,643] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:16:08,867] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 08:16:09,067] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:16:11,055] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:16:11,139] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:16:11,227] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 08:16:14,018] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 08:16:15,712] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 08:16:17,530] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 08:16:17,842] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 08:16:19,168] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:16:19,168] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 08:16:20,326] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 08:16:20,578] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:16:22,587] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 08:16:22,732] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 08:16:22,809] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 08:16:23,760] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:16:23,837] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:16:23,918] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:16:23,993] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:16:24,070] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:16:25,029] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 08:16:25,365] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:16:26,611] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:16:27,912] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:16:28,121] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:16:30,047] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:16:30,127] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:16:30,210] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 08:16:30,405] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 08:16:30,595] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 08:16:32,509] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 08:16:32,597] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:16:32,775] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:16:34,609] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 08:16:34,698] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 08:16:35,575] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 08:16:40,661] Delete_Post - Step 16: Enter to Search textbox
+[INFO ] [2022-10-07 08:16:40,890] Delete_Post - Step 17: Click to 'Search' button
+[INFO ] [2022-10-07 08:16:41,988] Delete_Post - Step 18: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-10-07 08:16:42,073] OS name = windows 10
+[INFO ] [2022-10-07 08:16:42,074] Driver instance name = chromedriver: chrome on windows (1b7f6e8335a85ff83d378c9f8fd52efd)
+[INFO ] [2022-10-07 08:17:05,119] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 08:17:09,791] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:17:10,131] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:17:10,311] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 08:17:12,885] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:17:14,253] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 08:17:14,267] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 08:17:17,825] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 08:17:19,271] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 08:17:22,103] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 08:17:22,717] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 08:17:24,353] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:17:24,483] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 08:17:25,671] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 08:17:25,959] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:17:27,980] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 08:17:28,157] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 08:17:28,278] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 08:17:29,545] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:17:29,634] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:17:29,714] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:17:29,793] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:17:29,875] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:17:31,068] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 08:17:31,155] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 08:17:31,233] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 08:17:31,311] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 08:17:31,398] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:17:32,674] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:17:34,018] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 08:17:34,281] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:17:36,219] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:17:36,317] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:17:36,413] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 08:17:39,441] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 08:17:40,708] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 08:17:42,798] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 08:17:43,077] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 08:17:44,511] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:17:44,511] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 08:17:46,743] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 08:17:46,944] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:17:48,880] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 08:17:49,003] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 08:17:49,085] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 08:17:49,946] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:17:50,032] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:17:50,096] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:17:50,174] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:17:50,238] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:17:51,180] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 08:17:51,515] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:17:52,812] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:17:54,205] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:17:54,444] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:17:56,497] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:17:56,589] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:17:56,666] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 08:17:56,822] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 08:17:56,986] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 08:17:58,890] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 08:17:59,007] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:17:59,183] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:18:01,045] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 08:18:01,132] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 08:18:01,976] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 08:18:07,029] Delete_Post - Step 16: Enter to Search textbox
+[INFO ] [2022-10-07 08:18:07,274] Delete_Post - Step 17: Click to 'Search' button
+[INFO ] [2022-10-07 08:18:08,313] Delete_Post - Step 18: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-10-07 08:18:08,394] OS name = windows 10
+[INFO ] [2022-10-07 08:18:08,394] Driver instance name = chromedriver: chrome on windows (6cbe6ceadb15582e6ba5bee5d20a2ff1)
+[INFO ] [2022-10-07 08:18:53,577] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 08:18:57,996] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:18:58,373] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:18:58,585] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 08:19:01,031] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:19:02,417] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 08:19:02,429] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 08:19:05,943] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 08:19:07,612] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 08:19:10,241] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 08:19:10,865] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 08:19:12,371] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:19:12,499] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 08:19:13,713] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 08:19:13,983] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:19:16,071] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 08:19:16,251] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 08:19:16,356] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 08:19:17,633] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:19:17,721] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:19:17,802] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:19:17,880] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:19:17,958] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:19:19,111] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 08:19:19,191] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 08:19:19,272] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 08:19:19,350] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 08:19:19,435] Edit_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:19:21,443] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:19:22,603] Edit_Post - Step 03: Input to Search textbox
+[INFO ] [2022-10-07 08:19:22,825] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:19:24,782] Edit_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:19:24,881] Edit_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:19:24,958] Edit_Post - Step 07: Click To Post title link
+[INFO ] [2022-10-07 08:19:27,962] Edit_Post - Step 08: Enter to edit post title
+[INFO ] [2022-10-07 08:19:29,412] Edit_Post - Step 09: Enter to edit post body 
+[INFO ] [2022-10-07 08:19:31,875] Edit_Post - Step 10: Click to 'Update' button
+[INFO ] [2022-10-07 08:19:32,074] Edit_Post - Step 11: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 08:19:33,089] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:19:33,089] Edit_Post - Step 12: Open 'Search Post' page
+[INFO ] [2022-10-07 08:19:34,319] Edit_Post - Step 13: Input to Search textbox
+[INFO ] [2022-10-07 08:19:34,610] Edit_Post - Step 14: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:19:36,643] Edit_Post - Step 15: Verify Post title is displayed
+[INFO ] [2022-10-07 08:19:36,743] Edit_Post - Step 16: Verify Post author is displayed
+[INFO ] [2022-10-07 08:19:36,837] Edit_Post - Step 17: Open browser and End User site
+[INFO ] [2022-10-07 08:19:37,693] Edit_Post - Step 18: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:19:37,781] Edit_Post - Step 19: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:19:37,859] Edit_Post - Step 20: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:19:37,939] Edit_Post - Step 21: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:19:38,016] Edit_Post - Step 22: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:19:38,984] Edit_Post - Step 23: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 08:19:39,360] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:19:40,624] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:19:41,937] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:19:42,175] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:19:44,188] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:19:44,267] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:19:44,345] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 08:19:44,508] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 08:19:44,683] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 08:19:46,749] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 08:19:46,831] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:19:47,030] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:19:48,893] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 08:19:48,982] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 08:19:49,882] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 08:19:54,917] Delete_Post - Step 16: Enter to Search textbox
+[INFO ] [2022-10-07 08:19:55,132] Delete_Post - Step 17: Click to 'Search' button
+[INFO ] [2022-10-07 08:19:56,213] Delete_Post - Step 18: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-10-07 08:19:56,324] OS name = windows 10
+[INFO ] [2022-10-07 08:19:56,324] Driver instance name = chromedriver: chrome on windows (cdaeb40c5e2a35bf3417d6ec451b64d5)
+[INFO ] [2022-10-07 08:46:47,836] Pre-condition - Step 01: Open browser and Admin site
+[INFO ] [2022-10-07 08:46:53,757] Pre-condition - Step 02: Enter to Username textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:46:54,133] Pre-condition - Step 03: Enter to Password textbox with value is 'automationfc'
+[INFO ] [2022-10-07 08:46:54,350] Pre-condition - Step 04: Click to Login button
+[INFO ] [2022-10-07 08:46:57,080] Create_Post - Step 01: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:46:58,538] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2022-10-07 08:46:58,546] Create_Post - Step 03: Click to 'Add new' button
+[INFO ] [2022-10-07 08:47:02,093] Create_Post - Step 04: Enter to post title
+[INFO ] [2022-10-07 08:47:03,711] Create_Post - Step 05: Enter to post body
+[INFO ] [2022-10-07 08:47:06,125] Create_Post - Step 06: Click to 'Publish' button
+[INFO ] [2022-10-07 08:47:07,123] Create_Post - Step 07: Verify 'Post published.' message is displayed
+[INFO ] [2022-10-07 08:47:08,604] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:47:08,740] Search_Post - Step 01: Open 'Search Post' page
+[INFO ] [2022-10-07 08:47:09,958] Search_Post - Step 02: Input to Search textbox
+[INFO ] [2022-10-07 08:47:10,377] Search_Post - Step 03: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:47:12,501] Search_Post - Step 04: Verify Post title is displayed
+[INFO ] [2022-10-07 08:47:12,621] Search_Post - Step 05: Verify Post author is displayed
+[INFO ] [2022-10-07 08:47:12,715] Search_Post - Step 06: Open browser and End User site
+[INFO ] [2022-10-07 08:47:14,028] Search_Post - Step 07: Verify Post title is displayed at Home page
+[INFO ] [2022-10-07 08:47:14,110] Search_Post - Step 08: Verify Post current day is displayed at Home page
+[INFO ] [2022-10-07 08:47:14,189] Search_Post - Step 9: Verify Post body is displayed at Home page
+[INFO ] [2022-10-07 08:47:14,282] Search_Post - Step 10: Verify Post author is displayed at Home page
+[INFO ] [2022-10-07 08:47:14,361] Search_Post - Step 11: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:47:15,461] Search_Post - Step 12: Verify Post title is displayed at Post detail page
+[INFO ] [2022-10-07 08:47:15,561] Search_Post - Step 13: Verify Post current day is displayed at Post detail page
+[INFO ] [2022-10-07 08:47:15,659] Search_Post - Step 14: Verify Post body is displayed at Post detail page
+[INFO ] [2022-10-07 08:47:15,732] Search_Post - Step 15: Verify Post author is displayed at Post detail page
+[INFO ] [2022-10-07 08:47:15,805] Edit_Post - Step 01: Open Admin site
+[INFO ] [2022-10-07 08:47:17,079] Create_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:47:18,415] Edit_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:47:18,634] Edit_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:47:20,666] Edit_Post - Step 05: Click To Post title link and navigate to Edit Post page
+[INFO ] [2022-10-07 08:47:23,269] Edit_Post - Step 06: Enter to edit post title
+[INFO ] [2022-10-07 08:47:24,925] Edit_Post - Step 07: Enter to edit post body 
+[INFO ] [2022-10-07 08:47:27,126] Edit_Post - Step 08: Click to 'Update' button
+[INFO ] [2022-10-07 08:47:27,501] Edit_Post - Step 09: Verify 'Post updated.' message is displayed
+[INFO ] [2022-10-07 08:47:28,570] -------------------------PASSED--------------------------
+[INFO ] [2022-10-07 08:47:28,570] Edit_Post - Step 10: Open 'Search Post' page
+[INFO ] [2022-10-07 08:47:29,691] Edit_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:47:29,951] Edit_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:47:31,916] Edit_Post - Step 13: Verify Search table contains 'Edit Title 8645'
+[INFO ] [2022-10-07 08:47:32,071] Edit_Post - Step 14: Verify Search table contains 'Automation FC'
+[INFO ] [2022-10-07 08:47:32,149] Edit_Post - Step 15: Open End User site
+[INFO ] [2022-10-07 08:47:33,035] Edit_Post - Step 16: Verify Post infor displayed at Home page
+[INFO ] [2022-10-07 08:47:33,345] Edit_Post - Step 17: Click to 'Posts title' link
+[INFO ] [2022-10-07 08:47:34,394] Edit_Post - Step 18: Verify Post infor is displayed at Post detail page
+[INFO ] [2022-10-07 08:47:34,726] Delete_Post - Step 01: Open 'Admin' site
+[INFO ] [2022-10-07 08:47:36,051] Delete_Post - Step 02: Click to 'Posts' menu link
+[INFO ] [2022-10-07 08:47:37,555] Delete_Post - Step 03: Enter to Search textbox
+[INFO ] [2022-10-07 08:47:37,825] Delete_Post - Step 04: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:47:40,436] Delete_Post - Step 05: Verify Post title is displayed
+[INFO ] [2022-10-07 08:47:40,558] Delete_Post - Step 06: Verify Post author is displayed
+[INFO ] [2022-10-07 08:47:40,636] Delete_Post - Step 07: Select Post detail checkbox
+[INFO ] [2022-10-07 08:47:40,864] Delete_Post - Step 08: Select 'Move to Trash' item in dropdown
+[INFO ] [2022-10-07 08:47:41,146] Delete_Post - Step 09: Click to 'Apply' button
+[INFO ] [2022-10-07 08:47:43,482] Delete_Post - Step 10: Verify '1 post moved to the Trash.' message is displayed
+[INFO ] [2022-10-07 08:47:43,584] Delete_Post - Step 11: Enter to Search textbox
+[INFO ] [2022-10-07 08:47:43,791] Delete_Post - Step 12: Click to 'Search Posts' button
+[INFO ] [2022-10-07 08:47:46,016] Delete_Post - Step 13: Verify 'No posts found.' message is displayed
+[INFO ] [2022-10-07 08:47:46,174] Delete_Post - Step 14: Open 'End User' site
+[INFO ] [2022-10-07 08:47:47,132] Delete_Post - Step 15: Verify Post title is Undisplayed at Home page
+[INFO ] [2022-10-07 08:47:52,229] Delete_Post - Step 16: Enter to Search textbox
+[INFO ] [2022-10-07 08:47:52,444] Delete_Post - Step 17: Click to 'Search' button
+[INFO ] [2022-10-07 08:47:53,465] Delete_Post - Step 18: Verify 'Nothing Found' message is displayed
+[INFO ] [2022-10-07 08:47:53,569] OS name = windows 10
+[INFO ] [2022-10-07 08:47:53,569] Driver instance name = chromedriver: chrome on windows (e231a00831dd97f203e7faebfb6f4980)

@@ -20,7 +20,7 @@ public class Common_01_Register_End_User extends BaseTest {
 
 		firstName = "Automation";
 		lastName = "Testing";
-		emailAddress = "auto" + generateFakeEmail() + "@hotmail.com";
+		emailAddress = "auto" + generateFakeNumber() + "@hotmail.com";
 		password = "123456";
 
 		log.info("Pre-condition - Step 01: Navigate to 'Register' page");

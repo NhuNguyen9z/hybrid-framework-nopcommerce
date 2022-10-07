@@ -24,6 +24,8 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageObjects.wordpress.PageGenerator;
+import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.nopCommerce.user.BasePageUI;
 
@@ -175,6 +177,11 @@ public class BasePage {
 	public void clickToElement(WebDriver driver, String locatorType, String... dynamicValues) {
 		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		getWebElement(driver, locatorType).click();
+	}
+
+	public void clearValueInElementByDeleteKey(WebDriver driver, String locatorType) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locatorType, String textValue) {
@@ -355,6 +362,25 @@ public class BasePage {
 	public boolean isElementUndisplayed(WebDriver driver, String locatorType) {
 		// set timeout implicitWait = 5 giây vì nếu set 30 giây khi gặp 1 issue là nó quá mất time để verify 1 element ko hiển thị (ko có trong DOM)
 		overrideImplicitWaitTimeout(driver, shortTimeout);
+		List<WebElement> elements = getListWebElement(driver, locatorType);
+		// phải set lại timeout implicitWait = 30 giây vì nếu để 5 giây có những page mới hiện icon loading chưa load xong nó sẽ ko đủ time find element
+		// nếu như gán timeout implicitWait = 5 nó sẽ apply cho all các step về sau đó: findElement/ findElements
+
+		overrideImplicitWaitTimeout(driver, longTimeout);
+		if (elements.size() == 0) { // element KO có trong DOM
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) { // element có trong DOM nhưng KO displayed
+			return true;
+		} else { // tức là element Displayed
+			return false;
+		}
+
+	}
+
+	public boolean isElementUndisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
+		// set timeout implicitWait = 5 giây vì nếu set 30 giây khi gặp 1 issue là nó quá mất time để verify 1 element ko hiển thị (ko có trong DOM)
+		overrideImplicitWaitTimeout(driver, shortTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
 		List<WebElement> elements = getListWebElement(driver, locatorType);
 		// phải set lại timeout implicitWait = 30 giây vì nếu để 5 giây có những page mới hiện icon loading chưa load xong nó sẽ ko đủ time find element
 		// nếu như gán timeout implicitWait = 5 nó sẽ apply cho all các step về sau đó: findElement/ findElements
@@ -769,6 +795,11 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		return PageGeneratorManager.getAminLoginPage(driver);
+	}
+
+	public UserHomePO openEndUserSite(WebDriver driver, String urlUserSite) {
+		openPageUrl(driver, urlUserSite);
+		return PageGenerator.getUserHomePage(driver);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
