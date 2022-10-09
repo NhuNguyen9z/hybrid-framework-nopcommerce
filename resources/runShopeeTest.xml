@@ -6,16 +6,16 @@
 		<listener class-name="commons.MethodListener" />
 	</listeners>
 
-	<test name="Test On Chrome">
-		<parameter name="browser" value="chrome" />
+	<test name="Test On Edge">
+		<parameter name="browser" value="edge" />
 		<parameter name="url" value="https://shopee.vn/" />
 		<classes>
-		<class name="com.shopee.home.Register" />
+			<class name="com.shopee.home.Register" />
 		</classes>
-		
-<!-- 		<packages> -->
-<!-- 			<package name="com.shopee.home" /> -->
-<!-- 		</packages> -->
+
+		<!-- <packages> -->
+		<!-- <package name="com.shopee.home" /> -->
+		<!-- </packages> -->
 	</test>
 
 
