@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Shopee" parallel="false">
+	<parameter name="enviroment" value="DEV" />
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+	</listeners>
+
+	<test name="Test On Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://shopee.vn/" />
+		<classes>
+		<class name="com.shopee.home.Register" />
+		</classes>
+		
+<!-- 		<packages> -->
+<!-- 			<package name="com.shopee.home" /> -->
+<!-- 		</packages> -->
+	</test>
+
+
+</suite> 
