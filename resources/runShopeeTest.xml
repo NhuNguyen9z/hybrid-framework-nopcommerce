@@ -6,8 +6,8 @@
 		<listener class-name="commons.MethodListener" />
 	</listeners>
 
-	<test name="Test On Edge">
-		<parameter name="browser" value="edge" />
+	<test name="Test On Chrome">
+		<parameter name="browser" value="Chrome" />
 		<parameter name="url" value="https://shopee.vn/" />
 		<classes>
 			<class name="com.shopee.home.Register" />
