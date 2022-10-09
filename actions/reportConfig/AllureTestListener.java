@@ -7,22 +7,21 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import commons.BaseTest;
 import io.qameta.allure.Attachment;
 
 public class AllureTestListener implements ITestListener {
 
-	// Screenshot attachments for Allure
-	@Attachment(value = "Screenshot of {0}", type = "image/png")
-	public static byte[] saveScreenshotPNG(String testName, WebDriver driver) {
-		return (byte[]) ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-	}
+	// @Attachment(value = "Screenshot of {0}", type = "image/png")
+	//
+	// public static byte[] saveScreenshotPNG(String testName, WebDriver driver) {
+	// return (byte[]) ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+	// }
 
 	@Override
 	public void onTestFailure(ITestResult iTestResult) {
-		Object testClass = iTestResult.getInstance();
-		WebDriver driver = ((BaseTest) testClass).getDriverInstance();
-		saveScreenshotPNG(iTestResult.getName(), driver);
+		// Object testClass = iTestResult.getInstance();
+		// WebDriver driver = ((BaseTest) testClass).getDriverInstance();
+		// saveScreenshotPNG(iTestResult.getName(), driver);
 
 	}
 

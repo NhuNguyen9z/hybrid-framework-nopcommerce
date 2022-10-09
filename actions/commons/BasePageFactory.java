@@ -1,5 +1,6 @@
 package commons;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 
@@ -342,5 +343,5 @@ public class BasePageFactory {
 		return element.isDisplayed();
 	}
 
-	private long longTimeout = 30;
+	private int longTimeout = 30;
 }

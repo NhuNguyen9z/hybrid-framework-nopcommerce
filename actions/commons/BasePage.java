@@ -148,6 +148,8 @@ public class BasePage {
 			by = By.name(locatorType.substring(5));
 		} else if (locatorType.startsWith("class=") || locatorType.startsWith("CLASS=") || locatorType.startsWith("Class=")) {
 			by = By.className(locatorType.substring(6));
+		} else if (locatorType.startsWith("tagName")) {
+			by = By.tagName(locatorType.substring(7));
 		} else {
 			throw new RuntimeException("Locator Type is not support");
 		}
@@ -162,7 +164,7 @@ public class BasePage {
 		return locatorType;
 	}
 
-	private WebElement getWebElement(WebDriver driver, String locatorType) {
+	public WebElement getWebElement(WebDriver driver, String locatorType) {
 		return driver.findElement(getByLocator(locatorType));
 	}
 

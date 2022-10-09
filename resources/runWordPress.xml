@@ -7,7 +7,7 @@
 	</listeners>
 
 	<test name="Test On Chrome">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<parameter name="urlAdmin" value="https://automationfc.net/wp-admin/" />
 		<parameter name="urlUser" value="https://automationfc.net/" />
 		<!-- <classes> -->

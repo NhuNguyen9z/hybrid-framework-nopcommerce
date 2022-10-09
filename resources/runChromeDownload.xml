@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Download" parallel="false">
+	<parameter name="enviroment" value="DEV" />
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+	</listeners>
+
+	<test name="Test On Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="chrome://downloads/" />
+
+		<packages>
+			<package name="come.chrome.download" />
+		</packages>
+	</test>
+
+
+</suite> 

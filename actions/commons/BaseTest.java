@@ -283,7 +283,7 @@ public class BaseTest {
 			}
 
 			if (driverBaseTest != null) {
-				// IE
+				// IE: Lưu lại các phiên đăng nhập trước đó (Khác Thread)
 				driverBaseTest.manage().deleteAllCookies();
 				driverBaseTest.quit();
 			}

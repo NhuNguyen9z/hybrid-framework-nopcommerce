@@ -37,11 +37,9 @@
 	<classpathentry kind="lib" path="libWebDriverManager/slf4j-api-1.7.32.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/webdrivermanager-5.0.2.jar"/>
 	<classpathentry kind="lib" path="libSelenium/javafaker-1.0.1.jar"/>
-	<classpathentry kind="lib" path="libSelenium/selenium-server-standalone-3.141.59.jar" sourcepath="libSelenium/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="libSelenium/testng-6.14.3.jar" sourcepath="libSelenium/testng-6.14.3-sources.jar"/>
 	<classpathentry kind="lib" path="libLog4J/commons-io-2.6.jar"/>
 	<classpathentry kind="lib" path="libLog4J/commons-lang3-3.8.1.jar"/>
-	<classpathentry kind="lib" path="libLog4J/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libLog4J/commons-logging-1.2.jar" sourcepath="libLog4J/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="libLog4J/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="libReportNG/commons-collections-3.2.1.jar"/>
 	<classpathentry kind="lib" path="libReportNG/guice-3.0.jar"/>
@@ -72,6 +70,8 @@
 	<classpathentry kind="lib" path="libAllure/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="libAllure/tika-core-1.20.jar"/>
 	<classpathentry kind="lib" path="libSelenium/joda-time-2.0.jar"/>
+	<classpathentry kind="lib" path="libSelenium/selenium-server-standalone-3.141.59.jar" sourcepath="libSelenium/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="libSelenium/testng-6.14.3.jar" sourcepath="libSelenium/testng-6.14.3-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
