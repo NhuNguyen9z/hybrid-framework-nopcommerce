@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Shopee" parallel="false">
+<suite name="Swag Labs" parallel="false">
 	<parameter name="enviroment" value="DEV" />
 
 	<listeners>
@@ -8,14 +8,11 @@
 
 	<test name="Test On Chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="url" value="https://shopee.vn/" />
+		<parameter name="url" value="https://www.saucedemo.com/" />
 		<classes>
-			<class name="com.shopee.home.Register" />
+			<class name="com.swagLabs.Level_19_Sort_Data_Asc_Desc" />
 		</classes>
 
-		<!-- <packages> -->
-		<!-- <package name="com.shopee.home" /> -->
-		<!-- </packages> -->
 	</test>
 
 

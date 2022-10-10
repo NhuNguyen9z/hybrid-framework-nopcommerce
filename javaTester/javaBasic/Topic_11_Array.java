@@ -15,7 +15,7 @@ public class Topic_11_Array {
 
 		String[] stdNewName = studentName.clone();
 
-		System.out.println(stdNewName[0]);
+		System.out.println("Name = " + stdNewName[0]);
 
 		// Array có thể dùng vs điều kiện dc
 		for (int i = 0; i < studentName.length; i++) {

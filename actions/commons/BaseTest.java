@@ -2,6 +2,8 @@ package commons;
 
 import java.io.IOException;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -17,6 +19,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
@@ -37,6 +40,9 @@ public class BaseTest {
 			// WebDriverManager - chọn hết all trong file libWebDriverManager sau đó phải Add Build Path thì mới chạy được
 			WebDriverManager.firefoxdriver().setup(); // tự tại driver tương ứng về
 			driverBaseTest = new FirefoxDriver();
+		} else if (browserList == BrowserList.SAFARI) {
+			// WebDriverManager.safaridriver().setup(); // vì SafariDriver tích hợp sẵn vào OS rồi nên trong code ko cần setting nữa
+			driverBaseTest = new SafariDriver();
 		} else if (browserList == BrowserList.H_FIREFOX) { // headless firefox --- Auto for UI: ko nên dùng Headless
 			// Browser option: 3.xx
 			WebDriverManager.firefoxdriver().setup();
@@ -120,6 +126,10 @@ public class BaseTest {
 			options.addArguments("--disable-geolocation");
 			options.setExperimentalOption("useAutomationExtension", false);
 			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			options.setExperimentalOption("prefs", prefs);
 			driverBaseTest = new ChromeDriver(options);
 		} else if (browserName.equals("h_chrome")) {
 			WebDriverManager.chromedriver().setup();
