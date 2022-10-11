@@ -1,4 +1,4 @@
-package com.swagLabs;
+package com.swagLabs.sort;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -19,38 +19,28 @@ public class Level_19_Sort_Data_Asc_Desc extends BaseTest {
 	public void beforeClass(String browserName, String urlApp) {
 		driver = getBrowserDriver(browserName, urlApp);
 		loginPage = PageGeneratorManager.getLoginPage(driver);
-	}
 
-	@Test
-	public void User_01_Login() {
 		loginPage.inputToUserNameTextbox("standard_user");
 		loginPage.inputToPasswordTextbox("secret_sauce");
 		productPage = loginPage.clickToLoginButton();
-
 	}
 
 	@Test
-	public void User_02_Sort_Product_Name_Asc() {
-		productPage.selectToDropDown("Name (A to Z)");
-		Assert.assertTrue(productPage.isProductNameSortAsc());
+	public void Sort_01_Name() {
+		productPage.selectItemInProductSortDropDown("Name (A to Z)");
+		Assert.assertTrue(productPage.isProductNameSortByAscending());
+
+		productPage.selectItemInProductSortDropDown("Name (Z to A)");
+		Assert.assertTrue(productPage.isProductNameSortByDescending());
 	}
 
 	@Test
-	public void User_03_Sort_Product_Name_Desc() {
-		productPage.selectToDropDown("Name (Z to A)");
-		Assert.assertTrue(productPage.isProductNameSortDesc());
-	}
+	public void Sort_02_Price_Asc() {
+		productPage.selectItemInProductSortDropDown("Price (low to high)");
+		Assert.assertTrue(productPage.isProductPriceSortByAscending());
 
-	@Test
-	public void User_04_Sort_Product_Price_Asc() {
-		productPage.selectToDropDown("Price (low to high)");
-		Assert.assertTrue(productPage.isProductPriceSortAsc());
-	}
-
-	@Test
-	public void User_05_Sort_Product_Price_Desc() {
-		productPage.selectToDropDown("Price (high to low)");
-		Assert.assertTrue(productPage.isProductPriceSortDesc());
+		productPage.selectItemInProductSortDropDown("Price (high to low)");
+		Assert.assertTrue(productPage.isProductPriceSortByDescending());
 	}
 
 	@AfterClass(alwaysRun = true)

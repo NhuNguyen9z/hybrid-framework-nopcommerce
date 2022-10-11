@@ -17,12 +17,12 @@ public class ProductPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void selectToDropDown(String textItem) {
+	public void selectItemInProductSortDropDown(String textItem) {
 		waitForElementClickable(driver, ProductPageUI.SELECT_DROPDOWN);
 		selectItemInDefaultDropdown(driver, ProductPageUI.SELECT_DROPDOWN, textItem);
 	}
 
-	public boolean isProductNameSortAsc() {
+	public boolean isProductNameSortByAscending() {
 		ArrayList<String> productNameUI = new ArrayList<String>();
 		List<WebElement> elements = getListWebElement(driver, ProductPageUI.PRODUCT_NAME);
 		for (WebElement element : elements) {
@@ -43,7 +43,7 @@ public class ProductPageObject extends BasePage {
 		return sortProduct.equals(productNameUI);
 	}
 
-	public boolean isProductNameSortDesc() {
+	public boolean isProductNameSortByDescending() {
 		ArrayList<String> productNameUI = new ArrayList<String>();
 		List<WebElement> elements = getListWebElement(driver, ProductPageUI.PRODUCT_NAME);
 		for (WebElement element : elements) {
@@ -68,7 +68,7 @@ public class ProductPageObject extends BasePage {
 		return sortProduct.equals(productNameUI);
 	}
 
-	public boolean isProductPriceSortAsc() {
+	public boolean isProductPriceSortByAscending() {
 		ArrayList<Float> productPriceUI = new ArrayList<Float>();
 		List<WebElement> elements = getListWebElement(driver, ProductPageUI.PRODUCT_PRICE);
 		for (WebElement element : elements) {
@@ -89,7 +89,7 @@ public class ProductPageObject extends BasePage {
 		return sortPrice.equals(productPriceUI);
 	}
 
-	public boolean isProductPriceSortDesc() {
+	public boolean isProductPriceSortByDescending() {
 		ArrayList<Float> productPriceUI = new ArrayList<Float>();
 		List<WebElement> elements = getListWebElement(driver, ProductPageUI.PRODUCT_PRICE);
 		for (WebElement element : elements) {
