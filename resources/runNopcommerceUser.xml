@@ -13,20 +13,10 @@
 	<!-- Global -->
 	<parameter name="browser" value="chrome" />
 
-	<!-- Specific -->
-	<parameter name="firstName" value="Automation" />
-	<parameter name="lastName" value="FC" />
-	<parameter name="emailAddress" value="automation" />
-	<parameter name="password" value="123456" />
-	<parameter name="day" value="10" />
-	<parameter name="month" value="August" />
-	<parameter name="year" value="1999" />
-	
 	<test name="Test On Chrome">
 		<classes>
-			<class name="com.nopcommerce.user.Level_20_Manage_Data_Faker_Part_II" />
+			<class name="com.nopcommerce.user.Level_20_Manage_Data_Faker_Part_IV" />
 		</classes>
 	</test>
-
-
+	
 </suite> 

@@ -1,0 +1,29 @@
+[INFO ] [2022-10-16 07:09:06,251] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-16 07:09:07,031] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-16 07:09:07,240] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-16 07:09:08,015] Register - Step 04: Enter to Email textbox with value is 'Autofc8089@fakemail.com'
+[INFO ] [2022-10-16 07:09:08,307] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-16 07:09:08,514] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-16 07:09:08,703] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-16 07:09:10,800] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-16 07:09:10,880] -------------------------PASSED--------------------------
+[INFO ] [2022-10-16 07:09:10,880] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-16 07:09:11,836] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-16 07:09:12,780] Login - Step 02: Enter to Email textbox with value is 'Autofc8089@fakemail.com'
+[INFO ] [2022-10-16 07:09:12,962] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-16 07:09:13,130] Login - Step 04: Click to Login button
+[INFO ] [2022-10-16 07:09:13,980] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-16 07:09:14,070] -------------------------PASSED--------------------------
+[INFO ] [2022-10-16 07:09:14,081] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-16 07:09:14,911] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-16 07:09:14,999] -------------------------PASSED--------------------------
+[INFO ] [2022-10-16 07:09:14,999] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-16 07:09:15,077] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-16 07:09:15,137] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-16 07:09:15,199] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-16 07:09:15,263] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-16 07:09:15,342] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-16 07:09:15,419] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-16 07:09:15,495] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-16 07:09:15,580] OS name = windows 10
+[INFO ] [2022-10-16 07:09:15,580] Driver instance name = chromedriver: chrome on windows (121839a13781cc673479ec10338978ea)
