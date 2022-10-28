@@ -34,7 +34,7 @@ public class BaseTest {
 	}
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		// browserList = Lấy ra giá trị của browserName để compare - thì browserList lúc mang giá trị là String
+		// browserList = Lấy ra giá trị của browserName rồi Uppercase lên convert qua BrowserList để compare - thì browserList lúc mang giá trị là String
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		if (browserList == BrowserList.FIREFOX) { // Firefox browser mới nhất thì cứ chọn FirefoxDriver(geckodriver) mới nhất -- tương tự cho Opera browser
 			// WebDriverManager - chọn hết all trong file libWebDriverManager sau đó phải Add Build Path thì mới chạy được
@@ -98,7 +98,7 @@ public class BaseTest {
 
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String urlApp) {
+	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
 
 		if (browserName.equals("firefox")) {
 
@@ -166,26 +166,40 @@ public class BaseTest {
 
 		driverBaseTest.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS); // Setting timeout
 		driverBaseTest.manage().window().maximize();
-		driverBaseTest.get(urlApp);
+		driverBaseTest.get(appUrl);
 
 		return driverBaseTest;
 
 	}
 
-	protected String getEnviromentUrl(String serverName) {
+	protected String getEnviromentUrl(String enviromentName) {
 		String envUrl = null;
-		EnviromentList enviromentList = EnviromentList.valueOf(serverName.toUpperCase());
-		if (enviromentList == EnviromentList.DEV) {
+		// Lấy value của environmentName rồi UpperCase lên convert qua EnvironmentList - sau đó get Value của nó ra rồi so sánh dùng if else hoặc switch-case
+		// mục đích của dùng switch-case là ko bị trùng còn dùng if else thì có thể bị trùng (viết lại nó vẫn bị trùng vì nó ko check dc)
+		EnviromentList enviromentList = EnviromentList.valueOf(enviromentName.toUpperCase());
+		switch (enviromentList) {
+		case DEV:
 			envUrl = "https://demo.nopcommerce.com/";
-		} else if (enviromentList == EnviromentList.TESTING) {
-			envUrl = "https://admin-demo.nopcommerce.com";
-		} else if (enviromentList == EnviromentList.STAGING) {
-			envUrl = "";
-		} else if (enviromentList == EnviromentList.PRODUCTION) {
-			envUrl = "";
-		}
-		return envUrl;
+			break;
+		case STAGING:
+			envUrl = "https://staging.nopcommerce.com/";
+			break;
+		case TESTING:
+			envUrl = "https://test.nopcommerce.com/";
+			break;
+		case PRE_PROD:
+			envUrl = "https://pre_prod.nopcommerce.com/";
+			break;
+		case PRODUCTION:
+			envUrl = "https://prod.nopcommerce.com/";
+			break;
 
+		default:
+			envUrl = "";
+			break;
+		}
+
+		return envUrl;
 	}
 
 	protected int generateFakeNumber() {

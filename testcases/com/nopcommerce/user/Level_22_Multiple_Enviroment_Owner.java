@@ -1,5 +1,6 @@
 package com.nopcommerce.user;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -15,26 +16,34 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import uitilities.Environment;
 
-public class Level_20_Manage_Data_Faker_Part_IV extends BaseTest {
+public class Level_22_Multiple_Enviroment_Owner extends BaseTest {
 
-	@Parameters({ "browser" })
+	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+	public void beforeClass(String browserName, String environmentName) {
+
+		// Set "env" == environmentName -- "env" chính là đại diện cho tên tiền tố của file .properties ví dụ dev.properties
+		// khi chạy sẽ map env cho biến ${env} trong Environment interface để đổi cái tên
+		ConfigFactory.setProperty("env", environmentName);
+
+		// tạo ra 1 instance của Environment interface
+		environment = ConfigFactory.create(Environment.class);
+
+		// sẽ gọi đến hàm appUrl() hàm này sẽ gọi đến file dev.properties để lấy App.Url ra sau đó truyền vào cho hàm getBrowserDriver
+		driver = getBrowserDriver(browserName, environment.appUrl());
+
+		System.out.println(environment.appUrl());
+		System.out.println(environment.appUser());
+		System.out.println(environment.appPass());
+		System.out.println(environment.dbUsername());
+		System.out.println(environment.dbPassword());
+		System.out.println(environment.dbHostname());
+
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
-
 		emailAddress = userData.getEmailAddress() + generateFakeNumber() + "@fakemail.com";
-
-		System.out.println(userData.getSubjects().get(0).getName());
-		System.out.println(userData.getSubjects().get(0).getPoint());
-
-		System.out.println(userData.getSubjects().get(1).getName());
-		System.out.println(userData.getSubjects().get(1).getPoint());
-
-		System.out.println(userData.getSubjects().get(2).getName());
-		System.out.println(userData.getSubjects().get(2).getPoint());
 
 	}
 
@@ -145,5 +154,6 @@ public class Level_20_Manage_Data_Faker_Part_IV extends BaseTest {
 	private UserLoginPageObject loginPage;
 	private UserCustomerInforPageObject customerInfoPage;
 	private UserDataMapper userData;
+	Environment environment;
 
 }

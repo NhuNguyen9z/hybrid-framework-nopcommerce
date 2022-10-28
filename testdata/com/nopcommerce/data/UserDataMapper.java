@@ -1,6 +1,7 @@
 package com.nopcommerce.data;
 
 import java.io.File;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -58,6 +59,29 @@ public class UserDataMapper {
 		@JsonProperty("password")
 		private String password;
 
+	}
+
+	@JsonProperty("subjects")
+	private List<Subject> subjects; // khai báo 1 List của class có thể coi nó là 1 object tương ứng với "subjects" bên file .json
+
+	public List<Subject> getSubjects() { // hàm trả về đối tượng subjects
+		return subjects;
+	}
+
+	public static class Subject {
+		@JsonProperty("name")
+		private String name;
+
+		@JsonProperty("point")
+		private float point;
+
+		public String getName() {
+			return name;
+		}
+
+		public float getPoint() {
+			return point;
+		}
 	}
 
 	public String getLoginUserName() {

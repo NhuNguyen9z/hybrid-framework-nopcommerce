@@ -9,6 +9,7 @@ public class UserCustomerInforPageObject extends BasePage {
 	WebDriver driver;
 
 	public UserCustomerInforPageObject(WebDriver driver) {
+
 		this.driver = driver;
 	}
 

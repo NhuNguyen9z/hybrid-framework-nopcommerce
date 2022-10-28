@@ -16,25 +16,16 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-public class Level_20_Manage_Data_Faker_Part_IV extends BaseTest {
+public class Level_21_Multiple_Enviroment_Parameter extends BaseTest {
 
-	@Parameters({ "browser" })
+	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+	public void beforeClass(String browserName, String environmentName) {
+		driver = getBrowserDriver(browserName, environmentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		userData = UserDataMapper.getUserData();
 
 		emailAddress = userData.getEmailAddress() + generateFakeNumber() + "@fakemail.com";
-
-		System.out.println(userData.getSubjects().get(0).getName());
-		System.out.println(userData.getSubjects().get(0).getPoint());
-
-		System.out.println(userData.getSubjects().get(1).getName());
-		System.out.println(userData.getSubjects().get(1).getPoint());
-
-		System.out.println(userData.getSubjects().get(2).getName());
-		System.out.println(userData.getSubjects().get(2).getPoint());
 
 	}
 

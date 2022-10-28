@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Nopcommerce - User" parallel="false">
-
+	
 	<listeners>
 		<listener class-name="commons.MethodListener" />
 		<!-- <listener class-name="reportConfig.ReportNGListener" /> -->
@@ -10,13 +10,13 @@
 	</listeners>
 
 	<!-- Global -->
-	<parameter name="environment" value="testing" />
+	<parameter name="url" value="https://demo.nopcommerce.com/" />
 
 	<test name="Test On Chrome">
-		<parameter name="browser" value="chrome" />
+	<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_22_Multiple_Enviroment_Owner" />
+			<class name="com.nopcommerce.user.Level_21_Multiple_Enviroment_Parameter" />
 		</classes>
 	</test>
-
+	
 </suite> 

@@ -3552,3 +3552,283 @@ Driver info: driver.version: RemoteWebDriver
 [INFO ] [2022-10-16 07:09:15,495] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
 [INFO ] [2022-10-16 07:09:15,580] OS name = windows 10
 [INFO ] [2022-10-16 07:09:15,580] Driver instance name = chromedriver: chrome on windows (121839a13781cc673479ec10338978ea)
+[INFO ] [2022-10-25 09:26:20,324] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-25 09:26:22,107] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-25 09:26:22,315] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-25 09:26:23,042] Register - Step 04: Enter to Email textbox with value is 'Autofc1877@fakemail.com'
+[INFO ] [2022-10-25 09:26:23,377] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-25 09:26:23,584] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-25 09:26:23,751] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-25 09:26:25,873] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-25 09:26:25,952] -------------------------PASSED--------------------------
+[INFO ] [2022-10-25 09:26:25,952] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-25 09:26:27,318] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-25 09:26:28,081] Login - Step 02: Enter to Email textbox with value is 'Autofc1877@fakemail.com'
+[INFO ] [2022-10-25 09:26:28,318] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-25 09:26:28,496] Login - Step 04: Click to Login button
+[INFO ] [2022-10-25 09:26:29,305] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-25 09:26:29,426] -------------------------PASSED--------------------------
+[INFO ] [2022-10-25 09:26:29,434] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-25 09:26:30,162] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-25 09:26:30,294] -------------------------PASSED--------------------------
+[INFO ] [2022-10-25 09:26:30,295] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-25 09:26:30,371] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-25 09:26:30,429] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-25 09:26:30,494] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-25 09:26:30,557] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-25 09:26:30,637] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-25 09:26:30,730] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-25 09:26:30,792] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-25 09:26:30,878] OS name = windows 10
+[INFO ] [2022-10-25 09:26:30,879] Driver instance name = chromedriver: chrome on windows (1b90271eb80401c07a3a17d8c80ae67b)
+[INFO ] [2022-10-26 23:49:25,228] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-26 23:49:26,477] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-26 23:49:26,665] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-26 23:49:27,404] Register - Step 04: Enter to Email textbox with value is 'Autofc2695@fakemail.com'
+[INFO ] [2022-10-26 23:49:27,695] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:49:27,909] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:49:28,106] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-26 23:49:29,758] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-26 23:49:29,837] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:49:29,837] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-26 23:49:30,750] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-26 23:49:31,468] Login - Step 02: Enter to Email textbox with value is 'Autofc2695@fakemail.com'
+[INFO ] [2022-10-26 23:49:31,659] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:49:31,810] Login - Step 04: Click to Login button
+[INFO ] [2022-10-26 23:49:32,650] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-26 23:49:32,732] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:49:32,747] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-26 23:49:33,421] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-26 23:49:33,527] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:49:33,527] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-26 23:49:33,605] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-26 23:49:33,668] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-26 23:49:33,732] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-26 23:49:33,794] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-26 23:49:33,873] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-26 23:49:33,935] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-26 23:49:34,013] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-26 23:49:34,107] OS name = windows 10
+[INFO ] [2022-10-26 23:49:34,107] Driver instance name = chromedriver: chrome on windows (2144999a9ed6ef00e1b820fc68a21e60)
+[INFO ] [2022-10-26 23:50:01,766] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-26 23:50:02,979] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-26 23:50:03,166] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-26 23:50:03,982] Register - Step 04: Enter to Email textbox with value is 'Autofc8652@fakemail.com'
+[INFO ] [2022-10-26 23:50:04,325] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:50:04,532] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:50:04,708] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-26 23:50:06,356] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-26 23:50:06,449] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:50:06,449] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-26 23:50:07,328] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-26 23:50:08,066] Login - Step 02: Enter to Email textbox with value is 'Autofc8652@fakemail.com'
+[INFO ] [2022-10-26 23:50:08,259] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:50:08,442] Login - Step 04: Click to Login button
+[INFO ] [2022-10-26 23:50:09,240] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-26 23:50:09,326] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:50:09,340] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-26 23:50:10,007] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-26 23:50:10,098] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:50:10,098] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-26 23:50:10,175] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-26 23:50:10,237] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-26 23:50:10,312] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-26 23:50:10,382] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-26 23:50:10,460] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-26 23:50:10,539] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-26 23:50:10,601] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-26 23:50:10,695] OS name = windows 10
+[INFO ] [2022-10-26 23:50:10,695] Driver instance name = chromedriver: chrome on windows (a59fdab84bc12531a8d7f0c5ecf8c2f8)
+[INFO ] [2022-10-26 23:51:37,755] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-26 23:51:38,948] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-26 23:51:39,138] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-26 23:51:39,892] Register - Step 04: Enter to Email textbox with value is 'Autofc8874@fakemail.com'
+[INFO ] [2022-10-26 23:51:40,166] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:51:40,415] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:51:40,606] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-26 23:51:42,242] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-26 23:51:42,316] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:51:42,316] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-26 23:51:43,206] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-26 23:51:43,976] Login - Step 02: Enter to Email textbox with value is 'Autofc8874@fakemail.com'
+[INFO ] [2022-10-26 23:51:44,171] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:51:44,362] Login - Step 04: Click to Login button
+[INFO ] [2022-10-26 23:51:45,172] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-26 23:51:45,250] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:51:45,259] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-26 23:51:45,944] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-26 23:51:46,018] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:51:46,018] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-26 23:51:46,096] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-26 23:51:46,156] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-26 23:51:46,220] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-26 23:51:46,291] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-26 23:51:46,370] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-26 23:51:46,448] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-26 23:51:46,510] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-26 23:51:46,588] OS name = windows 10
+[INFO ] [2022-10-26 23:51:46,588] Driver instance name = chromedriver: chrome on windows (51bed206fda958582c224de4cf046c8d)
+[INFO ] [2022-10-26 23:52:29,781] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-26 23:52:50,607] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-26 23:53:22,957] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-26 23:53:55,201] OS name = windows 10
+[INFO ] [2022-10-26 23:53:55,202] Driver instance name = chromedriver: chrome on windows (0a977682fff99c1d2e48a0cb6fecbeaa)
+[INFO ] [2022-10-26 23:54:27,482] disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a977682fff99c1d2e48a0cb6fecbeaa
+[INFO ] [2022-10-26 23:55:35,922] OS name = windows 10
+[INFO ] [2022-10-26 23:55:35,923] Driver instance name = chromedriver: chrome on windows (92e3db1ceb2a6168a00456d2796111ab)
+[INFO ] [2022-10-26 23:56:09,833] OS name = windows 10
+[INFO ] [2022-10-26 23:56:09,834] Driver instance name = chromedriver: chrome on windows (afce9e4ca2d96baf7def3b599c81a17e)
+[INFO ] [2022-10-26 23:56:57,039] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-26 23:56:58,222] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-26 23:56:58,458] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-26 23:56:59,226] Register - Step 04: Enter to Email textbox with value is 'Autofc8471@fakemail.com'
+[INFO ] [2022-10-26 23:56:59,546] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:56:59,808] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:56:59,989] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-26 23:57:01,602] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-26 23:57:01,695] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:57:01,695] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-26 23:57:02,536] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-26 23:57:03,261] Login - Step 02: Enter to Email textbox with value is 'Autofc8471@fakemail.com'
+[INFO ] [2022-10-26 23:57:03,456] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-26 23:57:03,628] Login - Step 04: Click to Login button
+[INFO ] [2022-10-26 23:57:04,437] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-26 23:57:04,518] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:57:04,526] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-26 23:57:05,189] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-26 23:57:05,275] -------------------------PASSED--------------------------
+[INFO ] [2022-10-26 23:57:05,275] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-26 23:57:05,352] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-26 23:57:05,413] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-26 23:57:05,478] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-26 23:57:05,540] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-26 23:57:05,621] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-26 23:57:05,682] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-26 23:57:05,762] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-26 23:57:05,848] OS name = windows 10
+[INFO ] [2022-10-26 23:57:05,848] Driver instance name = chromedriver: chrome on windows (97a17a4afa03daecb975dce0e6424c11)
+[INFO ] [2022-10-27 21:53:51,936] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-27 21:53:53,726] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-27 21:53:53,947] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-27 21:53:54,704] Register - Step 04: Enter to Email textbox with value is 'Autofc949@fakemail.com'
+[INFO ] [2022-10-27 21:53:54,998] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-27 21:53:55,202] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-27 21:53:55,411] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-27 21:53:56,538] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-27 21:53:56,623] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 21:53:56,623] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-27 21:53:57,474] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-27 21:53:58,234] Login - Step 02: Enter to Email textbox with value is 'Autofc949@fakemail.com'
+[INFO ] [2022-10-27 21:53:58,419] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-27 21:53:58,586] Login - Step 04: Click to Login button
+[INFO ] [2022-10-27 21:53:59,376] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-27 21:53:59,451] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 21:53:59,461] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-27 21:54:00,130] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-27 21:54:00,221] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 21:54:00,221] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-27 21:54:00,299] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-27 21:54:00,358] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-27 21:54:00,427] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-27 21:54:00,504] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-27 21:54:00,604] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-27 21:54:00,673] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-27 21:54:00,758] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-27 21:54:00,820] OS name = windows 10
+[INFO ] [2022-10-27 21:54:00,836] Driver instance name = chromedriver: chrome on windows (55d93b085c1287c872e78c6b0d3bb785)
+[INFO ] [2022-10-27 21:55:13,818] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-27 21:55:14,584] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-27 21:55:14,791] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-27 21:55:15,572] Register - Step 04: Enter to Email textbox with value is 'Autofc4386@fakemail.com'
+[INFO ] [2022-10-27 21:55:15,871] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-27 21:55:16,061] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-27 21:55:16,286] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-27 21:55:18,134] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-27 21:55:18,213] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 21:55:18,213] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-27 21:55:19,205] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-27 21:55:20,042] Login - Step 02: Enter to Email textbox with value is 'Autofc4386@fakemail.com'
+[INFO ] [2022-10-27 21:55:20,225] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-27 21:55:20,398] Login - Step 04: Click to Login button
+[INFO ] [2022-10-27 21:55:21,206] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-27 21:55:21,292] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 21:55:21,300] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-27 21:55:22,023] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-27 21:55:22,119] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 21:55:22,119] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-27 21:55:22,196] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-27 21:55:22,255] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-27 21:55:22,333] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-27 21:55:22,417] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-27 21:55:22,502] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-27 21:55:22,587] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-27 21:55:22,665] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-27 21:55:22,734] OS name = windows 10
+[INFO ] [2022-10-27 21:55:22,734] Driver instance name = chromedriver: chrome on windows (8f2b3e41bd77c2ca9c5b3d429cc0970f)
+[INFO ] [2022-10-27 23:51:21,810] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-27 23:51:22,983] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-27 23:51:23,184] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-27 23:51:23,968] Register - Step 04: Enter to Email textbox with value is 'Autofc3022@fakemail.com'
+[INFO ] [2022-10-27 23:51:24,243] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-27 23:51:24,451] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-27 23:51:24,639] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-27 23:51:25,786] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-27 23:51:25,864] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 23:51:25,864] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-27 23:51:26,719] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-27 23:51:27,470] Login - Step 02: Enter to Email textbox with value is 'Autofc3022@fakemail.com'
+[INFO ] [2022-10-27 23:51:27,656] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-27 23:51:27,827] Login - Step 04: Click to Login button
+[INFO ] [2022-10-27 23:51:28,606] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-27 23:51:28,680] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 23:51:28,690] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-27 23:51:29,338] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-27 23:51:29,419] -------------------------PASSED--------------------------
+[INFO ] [2022-10-27 23:51:29,419] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-27 23:51:29,495] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-27 23:51:29,553] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-27 23:51:29,619] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-27 23:51:29,702] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-27 23:51:29,755] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-27 23:51:29,855] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-27 23:51:29,918] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-27 23:51:30,034] OS name = windows 10
+[INFO ] [2022-10-27 23:51:30,034] Driver instance name = chromedriver: chrome on windows (3b4cb0a937b789baf031fe2b436a7566)
+[INFO ] [2022-10-28 01:55:38,575] OS name = windows 10
+[INFO ] [2022-10-28 01:55:38,576] 
+[INFO ] [2022-10-29 02:22:38,491] Register - Step 01: Navigate to 'Register' page
+[INFO ] [2022-10-29 02:22:39,864] Register - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-10-29 02:22:40,066] Register - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-10-29 02:22:40,772] Register - Step 04: Enter to Email textbox with value is 'Autofc1038@fakemail.com'
+[INFO ] [2022-10-29 02:22:41,070] Register - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-29 02:22:41,287] Register - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-10-29 02:22:41,476] Register - Step 07: Click to 'Register' button
+[INFO ] [2022-10-29 02:22:43,072] Register - Step 08: Verify Register success message is displayed
+[INFO ] [2022-10-29 02:22:43,150] -------------------------PASSED--------------------------
+[INFO ] [2022-10-29 02:22:43,150] Register - Step 09: Click to Logout link
+[INFO ] [2022-10-29 02:22:44,000] Login - Step 01: Navigate to 'Login' page
+[INFO ] [2022-10-29 02:22:44,733] Login - Step 02: Enter to Email textbox with value is 'Autofc1038@fakemail.com'
+[INFO ] [2022-10-29 02:22:44,944] Login - Step 03: Enter to Password textbox with value is '123456'
+[INFO ] [2022-10-29 02:22:45,107] Login - Step 04: Click to Login button
+[INFO ] [2022-10-29 02:22:45,916] Login - Step 05: Verify 'My Account' link is displayed
+[INFO ] [2022-10-29 02:22:45,992] -------------------------PASSED--------------------------
+[INFO ] [2022-10-29 02:22:46,005] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-10-29 02:22:46,688] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-10-29 02:22:46,774] -------------------------PASSED--------------------------
+[INFO ] [2022-10-29 02:22:46,774] Customer-Infor - Step 03: Verify 'Radio' value is displayed
+[INFO ] [2022-10-29 02:22:46,852] Customer-Infor - Step 04: Verify 'First Name' value is correctly
+[INFO ] [2022-10-29 02:22:46,912] Customer-Infor - Step 05: Verify 'Last Name' is correctly
+[INFO ] [2022-10-29 02:22:46,974] Customer-Infor - Step 06: Verify 'Email' value is correctly
+[INFO ] [2022-10-29 02:22:47,037] Customer-Infor - Step 07: Verify 'Day' value is correctly
+[INFO ] [2022-10-29 02:22:47,116] Customer-Infor - Step 08: Verify 'Month' value is correctly
+[INFO ] [2022-10-29 02:22:47,178] Customer-Infor - Step 09: Verify 'Year' value is correctly
+[INFO ] [2022-10-29 02:22:47,237] Customer-Infor - Step 10: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-10-29 02:22:47,308] OS name = windows 10
+[INFO ] [2022-10-29 02:22:47,308] Driver instance name = chromedriver: chrome on windows (29571b9b309f7738ec8705d53852e5fe)

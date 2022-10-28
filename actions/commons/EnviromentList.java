@@ -1,5 +1,5 @@
 package commons;
 
 public enum EnviromentList {
-	DEV, STAGING, PRODUCTION, TESTING;
+	DEV, STAGING, PRE_PROD, PRODUCTION, TESTING;
 }
